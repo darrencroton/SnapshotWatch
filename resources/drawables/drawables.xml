@@ -1,0 +1,7 @@
+<drawables>
+    <bitmap id="LauncherIcon" filename="launcher_icon.png" />
+    <bitmap id="BluetoothIcon" filename="bluetooth-2-13.png" dithering="none" />
+    <bitmap id="NotificationIcon" filename="speech-bubble-12.png" dithering="none" />
+    <bitmap id="AlarmIcon" filename="alarm-clock-12.png" dithering="none" />
+    <bitmap id="MuteIcon" filename="mute-2-12.png" dithering="none" />
+</drawables>

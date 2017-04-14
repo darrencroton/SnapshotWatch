@@ -1,0 +1,27 @@
+<resources>
+
+	<properties>
+		<property id="showHeartRate" type="boolean">true</property>
+		<property id="showDigitalTime" type="boolean">false</property>
+		<property id="digitalTimeOffset" type="number">0</property>
+	</properties>
+
+	<strings>
+		<string id="ShowHeartRateLabel">Show heart rate graph and cur/min/max values</string>
+		<string id="ShowDigitalTimeLabel">Show digital time</string>
+		<string id="DigitalTimeOffsetLabel">Digital time offset (integer, +-24)</string>
+	</strings>
+
+	<settings>
+		<setting propertyKey="@Properties.showHeartRate" title="@Strings.ShowHeartRateLabel">
+			<settingConfig type="boolean" />
+		</setting>
+		<setting propertyKey="@Properties.showDigitalTime" title="@Strings.ShowDigitalTimeLabel">
+			<settingConfig type="boolean" />
+		</setting>
+		<setting propertyKey="@Properties.digitalTimeOffset" title="@Strings.DigitalTimeOffsetLabel">
+			<settingConfig type="numeric" />
+		</setting>
+	</settings>
+
+</resources>
