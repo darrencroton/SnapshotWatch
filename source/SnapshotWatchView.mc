@@ -77,6 +77,7 @@ class SnapshotWatchView extends Ui.WatchFace {
 			} 
 			else
 			{
+				showDigitalTime = false;
 				digitalTimeOffset = 0;
 			}
     	}
