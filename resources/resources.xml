@@ -2,24 +2,24 @@
 
 	<properties>
 		<property id="showHeartRate" type="boolean">true</property>
-		<property id="showDigitalTime" type="boolean">false</property>
-		<property id="digitalTimeOffset" type="number">0</property>
+		<property id="showSecondTime" type="boolean">false</property>
+		<property id="secondTimeOffset" type="number">0</property>
 	</properties>
 
 	<strings>
-		<string id="ShowHeartRateLabel">Show heart rate graph and cur/min/max values</string>
-		<string id="ShowDigitalTimeLabel">Show digital time</string>
-		<string id="DigitalTimeOffsetLabel">Digital time offset (integer, +-24)</string>
+		<string id="ShowHeartRateLabel">Show heart rate graph and min/max values</string>
+		<string id="ShowSecondTimeLabel">Show second (digital) time</string>
+		<string id="SecondTimeOffsetLabel">Second (digital) time hour offset (integer, +-24)</string>
 	</strings>
 
 	<settings>
 		<setting propertyKey="@Properties.showHeartRate" title="@Strings.ShowHeartRateLabel">
 			<settingConfig type="boolean" />
 		</setting>
-		<setting propertyKey="@Properties.showDigitalTime" title="@Strings.ShowDigitalTimeLabel">
+		<setting propertyKey="@Properties.showSecondTime" title="@Strings.ShowSecondTimeLabel">
 			<settingConfig type="boolean" />
 		</setting>
-		<setting propertyKey="@Properties.digitalTimeOffset" title="@Strings.DigitalTimeOffsetLabel">
+		<setting propertyKey="@Properties.secondTimeOffset" title="@Strings.SecondTimeOffsetLabel">
 			<settingConfig type="numeric" />
 		</setting>
 	</settings>

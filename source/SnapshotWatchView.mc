@@ -21,13 +21,19 @@ class SnapshotWatchView extends Ui.WatchFace {
 	
 	var usePreferences = true;
 	var showHeartRate = true;
-	var showDigitalTime = false;
-	var digitalTimeOffset = 0;
+	var showSecondTime = false;
+	var secondTimeOffset = 0;
+
+	var background_color = Gfx.COLOR_BLACK;
+//	var background_color = Gfx.COLOR_DK_GRAY;
 
 	var showSeconds = true;
-	var background_color = Gfx.COLOR_BLACK;
 	var width_screen, height_screen;
 	var hashMarksArray = new [60];
+
+	var heartNow;
+	var heartMin;
+	var heartMax;
 
 
     //! Load your resources here
@@ -44,13 +50,9 @@ class SnapshotWatchView extends Ui.WatchFace {
 			hashMarksArray[i][0] = (i / 60.0) * Math.PI * 2;
 
 			if(i != 0 && i != 15 && i != 30 && i != 45)
-			{
-				hashMarksArray[i][1] = -85;
-    		}
+				{ hashMarksArray[i][1] = -85; }
     		else
-			{
-				hashMarksArray[i][1] = -67;
-	    	}
+				{ hashMarksArray[i][1] = -67; }
 		}
 		
         setLayout(Rez.Layouts.WatchFace(dc));
@@ -64,54 +66,141 @@ class SnapshotWatchView extends Ui.WatchFace {
     //! Update the view
     function onUpdate(dc) {
 
-		if (usePreferences) {
+		if (usePreferences) 
+		{
 			showHeartRate = Application.getApp().getProperty("showHeartRate");
-			showDigitalTime = Application.getApp().getProperty("showDigitalTime");
-			digitalTimeOffset = Application.getApp().getProperty("digitalTimeOffset");
+			showSecondTime = Application.getApp().getProperty("showSecondTime");
+			secondTimeOffset = Application.getApp().getProperty("secondTimeOffset");
 		}
 
-		if (showDigitalTime)
+		if (showSecondTime)
 		{
-			if (digitalTimeOffset != null && digitalTimeOffset <= 24 && digitalTimeOffset >= -24) {
-				digitalTimeOffset = digitalTimeOffset.toNumber();
+			if (secondTimeOffset != null && secondTimeOffset <= 24 && secondTimeOffset >= -24) 
+			{
+				secondTimeOffset = secondTimeOffset.toNumber();
 			} 
 			else
 			{
-				showDigitalTime = false;
-				digitalTimeOffset = 0;
+				showSecondTime = false;
+				secondTimeOffset = 0;
 			}
     	}
-    	
-        var clockTime = Sys.getClockTime();
 
         // Clear screen
         dc.setColor(background_color, Gfx.COLOR_WHITE);
-//		dc.setColor(Gfx.COLOR_DK_GRAY, Gfx.COLOR_DK_GRAY);
-        dc.fillRectangle(0,0, width_screen, height_screen);
+		dc.fillRectangle(0,0, width_screen, height_screen);
 
-		var heartNow = 0;
-		var heartMin = 0;
-		var heartMax = 0;
+		heartNow = 0;
+		heartMin = 0;
+		heartMax = 0;
+
+ 		// Plot heart rate graph
+		plotHRgraph(dc);
+ 
+        // Draw hash marks
+		drawHashMarks(dc);
+		
+		// Draw analogue clock hands
+		drawHands(dc, Sys.getClockTime().hour, Sys.getClockTime().min, Sys.getClockTime().sec);
+
+		// Set text colour for the remaining information
+		dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
+
+		// Show cur/min/max HR values (recorded when plotting graph, above)
+		if (heartNow == 0)
+        	{ dc.drawText(width_screen/2, height_screen/2 + 20, Gfx.FONT_SMALL, "-- bpm", Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER); }
+		else
+        	{ dc.drawText(width_screen/2, height_screen/2 + 20, Gfx.FONT_SMALL, Lang.format("$1$ bpm", [heartNow]), Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER); }
 
 		if (showHeartRate)
 		{
-	 		// Plot heart rate graph
-			var sample = Sensor.getHeartRateHistory( {:order=>Sensor.ORDER_NEWEST_FIRST} );
-		    if (sample != null)
-		    {
+			var heartMinMaxString;
+	        if (heartMin == 0 || heartMax == 0)
+	        	{ heartMinMaxString = "-- / -- bpm"; }
+	        else
+	        	{ heartMinMaxString = Lang.format("$1$ / $2$ bpm", [heartMin, heartMax]); }
+
+	        dc.drawText(width_screen/2, height_screen - 19, Gfx.FONT_SMALL, heartMinMaxString, Graphics.TEXT_JUSTIFY_CENTER);
+		}
+		
+        // Show date
+		drawDate(dc);
+		
+        // Show second (digital) time
+        drawDigitalTime(dc, Sys.getClockTime());
+
+ 		// Show bluetooth icon
+		if (Sys.getDeviceSettings().phoneConnected) 
+			{ dc.drawBitmap(39, 6, Ui.loadResource(Rez.Drawables.BluetoothIcon)); }
+ 		
+ 		// Show alarm icon
+		if (Sys.getDeviceSettings().alarmCount > 0) 
+			{ dc.drawBitmap(25, 23, Ui.loadResource(Rez.Drawables.AlarmIcon)); }
+ 		
+ 		// Show do not disturb icon
+		if (Sys.getDeviceSettings().doNotDisturb) 
+			{ dc.drawBitmap(10, 49, Ui.loadResource(Rez.Drawables.MuteIcon)); }
+
+ 		// Show notification count icon
+		if (Sys.getDeviceSettings().notificationCount > 0) 
+		{
+			var offset = 0;
+			if (Sys.getDeviceSettings().notificationCount >= 10) { offset = 6; }
+			
+        	dc.drawText(width_screen/2+16+offset, 7, Gfx.FONT_SMALL, Sys.getDeviceSettings().notificationCount, Graphics.TEXT_JUSTIFY_RIGHT|Graphics.TEXT_JUSTIFY_VCENTER);
+			dc.drawBitmap(width_screen/2+18+offset, 2, Ui.loadResource(Rez.Drawables.NotificationIcon));
+		}
+
+ 		// Show battery percent
+        var battery = Sys.getSystemStats().battery;
+        var offset = 0;
+        if (battery == 100) 
+        	{ offset = 6; }
+        dc.drawText(width_screen/2-33-offset, 7, Gfx.FONT_SMALL, Lang.format("$1$%", [battery.format("%2d")]), Graphics.TEXT_JUSTIFY_LEFT|Graphics.TEXT_JUSTIFY_VCENTER);
+
+		// Show steps
+        dc.drawText(width_screen-4, height_screen/2 - 14, Gfx.FONT_SMALL, ActMon.getInfo().steps, Graphics.TEXT_JUSTIFY_RIGHT|Graphics.TEXT_JUSTIFY_VCENTER);
+        dc.drawText(width_screen-4, height_screen/2 + 11, Gfx.FONT_SMALL, ActMon.getInfo().stepGoal, Graphics.TEXT_JUSTIFY_RIGHT|Graphics.TEXT_JUSTIFY_VCENTER);
+
+		// Show sunrise and sunset
+		drawSunriseSunset(dc);
+
+    }
+
+
+    //! The user has just looked at their watch. Timers and animations may be started here.
+    function onExitSleep() {
+		showSeconds = true;
+    }
+
+
+    //! Terminate any active timers and prepare for slow updates.
+    function onEnterSleep() {
+		showSeconds = false;
+    	requestUpdate();
+    }
+
+
+	function plotHRgraph(dc) {
+	
+		var sample = Sensor.getHeartRateHistory( {:order=>Sensor.ORDER_NEWEST_FIRST} );
+		if (sample != null)
+		{		    	
+			var heart = sample.next();
+			if (heart.data != null)
+				{ heartNow = heart.data; }
+
+			if (showHeartRate)
+			{			
 		    	if (sample.getMin() != null)
-		    	{ heartMin = sample.getMin(); }
+		    		{ heartMin = sample.getMin(); }
 		    	
 		    	if (sample.getMax() != null)
-		    	{ heartMax = sample.getMax(); }
-		    	
-		    	var heart = sample.next();
-				if (heart.data != null)
-				{ heartNow = heart.data; }
+		    		{ heartMax = sample.getMax(); }
 	
 				dc.setColor(Gfx.COLOR_DK_GREEN, Gfx.COLOR_TRANSPARENT);
 	
-				var maxSecs = 14355;//14400; //4 hours
+				var maxSecs = 14355; //14400 = 4 hours
 				var totHeight = 44;
 				var totWidth = 165;
 				var binPixels = 1;
@@ -159,10 +248,10 @@ class SnapshotWatchView extends Ui.WatchFace {
 									else
 									{
 										if (heartValue > heartBinMax)
-										{ heartBinMax = heartValue; }
+											{ heartBinMax = heartValue; }
 										
 										if (heartValue < heartBinMin)
-										{ heartBinMin = heartValue; }
+											{ heartBinMin = heartValue; }
 									}
 								}
 								
@@ -181,7 +270,7 @@ class SnapshotWatchView extends Ui.WatchFace {
 						} // while secsBin < binWidthSecs
 	
 						if (secsBin >= binWidthSecs)
-						{ secsBin -= binWidthSecs; }
+							{ secsBin -= binWidthSecs; }
 	
 						// only plot bar if we have valid values
 						if (heartBinMax > 0 && heartBinMax >= heartBinMin)
@@ -202,105 +291,8 @@ class SnapshotWatchView extends Ui.WatchFace {
 			} // if sample != null
 
 		}
- 
-        // First draw hash marks the analogue time hands
-		drawHashMarks(dc);
-		drawHands(dc, clockTime.hour, clockTime.min, clockTime.sec);
-
-		if (showHeartRate)
-		{
-			// Now show HR information (calculated above)
-			dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
-			
-			if (heartNow == 0)
-	        { dc.drawText(width_screen/2, height_screen/2 + 20, Gfx.FONT_SMALL, "-- bpm", Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER); }
-			else
-	        { dc.drawText(width_screen/2, height_screen/2 + 20, Gfx.FONT_SMALL, Lang.format("$1$ bpm", [heartNow]), Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER); }
-			
-			var heartMinMaxString;
-	        if (heartMin == 0 || heartMax == 0)
-	        { heartMinMaxString = "-- / -- bpm"; }
-	        else
-	        { heartMinMaxString = Lang.format("$1$ / $2$ bpm", [heartMin, heartMax]); }
-	        dc.drawText(width_screen/2, height_screen - 19, Gfx.FONT_SMALL, heartMinMaxString, Graphics.TEXT_JUSTIFY_CENTER);
-
-		}
-		
-        // Date
-		dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
-		drawDate(dc);
-		
-        // Digital time
-        if (showDigitalTime)
-        {
-			dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
-			drawDigitalTime(dc, clockTime);
-		}
-
- 		// BT, alarm, notification, and do not disturb icons
-		if (Sys.getDeviceSettings().phoneConnected) 
-		{
-			dc.drawBitmap(39, 6, Ui.loadResource(Rez.Drawables.BluetoothIcon));
-		}
- 		
-		if (Sys.getDeviceSettings().alarmCount > 0) 
-		{
-			dc.drawBitmap(25, 23, Ui.loadResource(Rez.Drawables.AlarmIcon));
-		}
- 		
-		if (Sys.getDeviceSettings().doNotDisturb) 
-		{
-			dc.drawBitmap(10, 49, Ui.loadResource(Rez.Drawables.MuteIcon));
-		}
-
-		if (Sys.getDeviceSettings().notificationCount > 0) 
-		{
-			var offset = 0;
-			if (Sys.getDeviceSettings().notificationCount >= 10)
-			{
-				offset = 6;
-			}
-			
-        	dc.drawText(width_screen/2+16+offset, 7, Gfx.FONT_SMALL, Sys.getDeviceSettings().notificationCount, Graphics.TEXT_JUSTIFY_RIGHT|Graphics.TEXT_JUSTIFY_VCENTER);
-			dc.drawBitmap(width_screen/2+18+offset, 2, Ui.loadResource(Rez.Drawables.NotificationIcon));
-		}
-
- 		// Battery
-		var systemStats = Sys.getSystemStats();
-        var battery = systemStats.battery;
-        
-        var offset = 0;
-        if (battery == 100)
-        { offset = 6; }
-        
-        dc.drawText(width_screen/2-33-offset, 7, Gfx.FONT_SMALL, Lang.format("$1$%", [battery.format("%2d")]), Graphics.TEXT_JUSTIFY_LEFT|Graphics.TEXT_JUSTIFY_VCENTER);
-
-		// Steps
-        var stepsInfo = ActMon.getInfo();
-        var steps = stepsInfo.steps;        
-        var goal = stepsInfo.stepGoal;        
-        dc.drawText(width_screen-4, height_screen/2 - 14, Gfx.FONT_SMALL, steps, Graphics.TEXT_JUSTIFY_RIGHT|Graphics.TEXT_JUSTIFY_VCENTER);
-        dc.drawText(width_screen-4, height_screen/2 + 11, Gfx.FONT_SMALL, goal, Graphics.TEXT_JUSTIFY_RIGHT|Graphics.TEXT_JUSTIFY_VCENTER);
-
-		// Sunrise & sunset
-		dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
-		drawSunriseSunset(dc);
-
-    }
-
-
-    //! The user has just looked at their watch. Timers and animations may be started here.
-    function onExitSleep() {
-		showSeconds = true;
-    }
-
-
-    //! Terminate any active timers and prepare for slow updates.
-    function onEnterSleep() {
-		showSeconds = false;
-    	requestUpdate();
-    }
-
+	}
+	
 
     //! Draw the watch hand
     function drawHand(dc, angle, whichHand, width, handColour)
@@ -322,7 +314,7 @@ class SnapshotWatchView extends Ui.WatchFace {
 	        deflect1 = 0.10*width;
 	        deflect2 = 0.08*width;
         }
-        else //minute hand
+        else  //minute hand
         {
         	length = 1.0*centerX;
 	        r1 = 0.0*length;
@@ -352,20 +344,21 @@ class SnapshotWatchView extends Ui.WatchFace {
 	{
         var hour, min, sec;
 
-		// Draw the hour. Convert it to minutes and compute the angle.
+		// Draw the hour hand - convert to minutes then compute angle
         hour = ( ( ( clock_hour % 12 ) * 60 ) + clock_min ); // hour = 2*60.0;
         hour = hour / (12 * 60.0) * Math.PI * 2;
         drawHand(dc, hour, 0, 2.0, Gfx.COLOR_DK_BLUE);
         drawHand(dc, hour, 0, 1.6, Gfx.COLOR_LT_GRAY);
 
-        // Draw the minute
+        // Draw the minute hand
         min = ( clock_min / 60.0); // min = 40/60.0;
         min = min * Math.PI * 2;
         drawHand(dc, min, 1, 1.2, Gfx.COLOR_DK_BLUE);
         drawHand(dc, min, 1, 1.0, Gfx.COLOR_LT_GRAY);
 
-        // Draw the seconds (use hash graphic here)
-		if(showSeconds){
+        // Draw the seconds hand (use hash graphic here)
+		if(showSeconds)
+		{
 			sec = ( clock_sec / 60.0) *  Math.PI * 2;
         	drawHash(dc, sec, width_screen/2, 4, 25, Gfx.COLOR_DK_BLUE);
         	drawHash(dc, sec, width_screen/2, 2, 25, Gfx.COLOR_LT_GRAY);
@@ -413,24 +406,21 @@ class SnapshotWatchView extends Ui.WatchFace {
     //! Draw the hash mark symbols
     function drawHashMarks(dc)
     {
+		drawHash(dc, hashMarksArray[5][0],  110, 3, hashMarksArray[5][1],  Gfx.COLOR_WHITE);
+		drawHash(dc, hashMarksArray[10][0], 110, 3, hashMarksArray[10][1], Gfx.COLOR_WHITE);
+		drawHash(dc, hashMarksArray[20][0], 110, 3, hashMarksArray[20][1], Gfx.COLOR_WHITE);
+		drawHash(dc, hashMarksArray[25][0], 110, 3, hashMarksArray[25][1], Gfx.COLOR_WHITE);
+		drawHash(dc, hashMarksArray[35][0], 110, 3, hashMarksArray[35][1], Gfx.COLOR_WHITE);
+		drawHash(dc, hashMarksArray[40][0], 110, 3, hashMarksArray[40][1], Gfx.COLOR_WHITE);
+		drawHash(dc, hashMarksArray[50][0], 110, 3, hashMarksArray[50][1], Gfx.COLOR_WHITE);
+		drawHash(dc, hashMarksArray[55][0], 110, 3, hashMarksArray[55][1], Gfx.COLOR_WHITE);
 
-		for(var i = 0; i < 60; i += 5)
-		{
-			if(i != 30)
-			{
-				if(i != 0 && i != 15 &&  i != 45)
-				{
-	    			drawHash(dc, hashMarksArray[i][0], 110, 3, hashMarksArray[i][1], Gfx.COLOR_WHITE);
-	    		} else {
-	    			drawHash(dc, hashMarksArray[i][0], 110, 5, hashMarksArray[i][1], Gfx.COLOR_WHITE);
-	    		}
-	    	}
-	    	
-	    	if(!showHeartRate && i == 30)
-	    	{
-				drawHash(dc, hashMarksArray[i][0], 110, 5, hashMarksArray[i][1], Gfx.COLOR_WHITE);
-	    	}
-		}
+		drawHash(dc, hashMarksArray[0][0],  110, 5, hashMarksArray[0][1],  Gfx.COLOR_WHITE);
+		drawHash(dc, hashMarksArray[15][0], 110, 5, hashMarksArray[15][1], Gfx.COLOR_WHITE);
+		drawHash(dc, hashMarksArray[45][0], 110, 5, hashMarksArray[45][1], Gfx.COLOR_WHITE);
+
+    	if(!showHeartRate)
+    		{ drawHash(dc, hashMarksArray[30][0], 110, 5, hashMarksArray[30][1], Gfx.COLOR_WHITE); }
     }
 
 
@@ -439,40 +429,31 @@ class SnapshotWatchView extends Ui.WatchFace {
         var info = Calendar.info(Time.now(), Time.FORMAT_LONG);
         var dateStr = Lang.format("$1$ $2$ $3$", [info.day_of_week, info.month, info.day]);
 
-		if (showDigitalTime)
-		{
-    		dc.drawText(width_screen/2, height_screen/2 - 60, Gfx.FONT_MEDIUM, dateStr, Gfx.TEXT_JUSTIFY_CENTER);
-    	}
+		if (showSecondTime)
+			{ dc.drawText(width_screen/2, height_screen/2 - 60, Gfx.FONT_MEDIUM, dateStr, Gfx.TEXT_JUSTIFY_CENTER); }
     	else
-    	{
-    		dc.drawText(width_screen/2, height_screen/2 - 55, Gfx.FONT_MEDIUM, dateStr, Gfx.TEXT_JUSTIFY_CENTER);
-    	}
+    		{ dc.drawText(width_screen/2, height_screen/2 - 55, Gfx.FONT_MEDIUM, dateStr, Gfx.TEXT_JUSTIFY_CENTER); }
     }
 
 
     function drawDigitalTime(dc, clockTime)
     {
-    
-    	var offsetHour = clockTime.hour + digitalTimeOffset;
-
-    	if (offsetHour > 23)
-    	{
-    		offsetHour -= 24;
-    	} 
-    	else if (offsetHour < 0)
-    	{
-    		offsetHour += 24;
-    	}
-    	
-		var ampm = "am";
-    	if (offsetHour >= 12)
-    	{
-    		ampm = "pm";
-    	}
-    	
-        var timeString = Lang.format("$1$:$2$$3$", [to12hourFormat(offsetHour), clockTime.min.format("%02d"), ampm]);
-        dc.drawText(width_screen/2, height_screen/2 - 30, Gfx.FONT_SMALL, timeString, Gfx.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
-
+		if (showSecondTime)
+		{
+	    	var offsetHour = clockTime.hour + secondTimeOffset;
+	
+	    	if (offsetHour > 23)
+	    		{ offsetHour -= 24; } 
+	    	else if (offsetHour < 0)
+	    		{ offsetHour += 24; }
+	    	
+			var ampm = "am";
+	    	if (offsetHour >= 12)
+	    		{ ampm = "pm"; }
+	    	
+	        var timeString = Lang.format("$1$:$2$$3$", [to12hourFormat(offsetHour), clockTime.min.format("%02d"), ampm]);
+	        dc.drawText(width_screen/2, height_screen/2 - 30, Gfx.FONT_SMALL, timeString, Gfx.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
+		}
     }
 
 
@@ -513,18 +494,14 @@ class SnapshotWatchView extends Ui.WatchFace {
 
 			ampm = "a";
     		if (timeInfoSunrise.hour >= 12)
-    		{
-    			ampm = "p";
-    		}
+    			{ ampm = "p"; }
     	
         	timeString = Lang.format("$1$:$2$$3$", [to12hourFormat(timeInfoSunrise.hour), timeInfoSunrise.min.format("%02d"), ampm]);
         	dc.drawText(3, height_screen/2 - 14, Gfx.FONT_SMALL, timeString, Gfx.TEXT_JUSTIFY_LEFT|Graphics.TEXT_JUSTIFY_VCENTER);
 
 			ampm = "a";
     		if (timeInfoSunset.hour >= 12)
-    		{
-    			ampm = "p";
-    		}
+    			{ ampm = "p"; }
     	
         	timeString = Lang.format("$1$:$2$$3$", [to12hourFormat(timeInfoSunset.hour), timeInfoSunset.min.format("%02d"), ampm]);
         	dc.drawText(3, height_screen/2 + 11, Gfx.FONT_SMALL, timeString, Gfx.TEXT_JUSTIFY_LEFT|Graphics.TEXT_JUSTIFY_VCENTER);
@@ -537,12 +514,10 @@ class SnapshotWatchView extends Ui.WatchFace {
 	function to12hourFormat(hour) 
 	{
 		var hour12 = hour % 12;
-		if (hour12 == 0) {
-			hour12 = 12;
-		}
+		if (hour12 == 0) 
+			{ hour12 = 12; }
 		
 		return hour12;
 	}
 	
 }
-
