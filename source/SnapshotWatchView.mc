@@ -9,6 +9,7 @@ using Toybox.Application as App;
 using Toybox.ActivityMonitor as ActMon;
 using Toybox.SensorHistory as Sensor;
 using Toybox.Activity as Activity;
+using Toybox.UserProfile as User;
 
 enum
 {
@@ -24,6 +25,11 @@ class SnapshotWatchView extends Ui.WatchFace {
 	var showSecondTime = false;
 	var secondTimeOffset = 0;
 
+	var arrayColours = new [11];
+	var graphColour = 0;
+	var useZonesColour = true;
+	var heartRateZones;
+	
 	var background_color = Gfx.COLOR_BLACK;
 //	var background_color = Gfx.COLOR_DK_GRAY;
 
@@ -42,6 +48,10 @@ class SnapshotWatchView extends Ui.WatchFace {
     	//get screen dimensions
 		width_screen = dc.getWidth();
 		height_screen = dc.getHeight();
+
+        arrayColours = [Gfx.COLOR_DK_GRAY, Gfx.COLOR_RED, Gfx.COLOR_DK_RED, Gfx.COLOR_ORANGE, Gfx.COLOR_YELLOW, Gfx.COLOR_GREEN, Gfx.COLOR_DK_GREEN, Gfx.COLOR_BLUE, Gfx.COLOR_DK_BLUE, Gfx.COLOR_PURPLE, Gfx.COLOR_PINK];
+		heartRateZones = User.getHeartRateZones(User.getCurrentSport());
+//		heartRateZones = [98, 127, 146, 166, 185, 195];
 
 		//get hash marks position
 		for(var i = 0; i < 60; i+=1)
@@ -69,6 +79,8 @@ class SnapshotWatchView extends Ui.WatchFace {
 		if (usePreferences) 
 		{
 			showHeartRate = Application.getApp().getProperty("showHeartRate");
+			graphColour = Application.getApp().getProperty("graphColour");
+			useZonesColour = Application.getApp().getProperty("useZonesColour");
 			showSecondTime = Application.getApp().getProperty("showSecondTime");
 			secondTimeOffset = Application.getApp().getProperty("secondTimeOffset");
 		}
@@ -198,8 +210,6 @@ class SnapshotWatchView extends Ui.WatchFace {
 		    	if (sample.getMax() != null)
 		    		{ heartMax = sample.getMax(); }
 	
-				dc.setColor(Gfx.COLOR_DK_GREEN, Gfx.COLOR_TRANSPARENT);
-	
 				var maxSecs = 14355; //14400 = 4 hours
 				var totHeight = 44;
 				var totWidth = 165;
@@ -275,10 +285,12 @@ class SnapshotWatchView extends Ui.WatchFace {
 						// only plot bar if we have valid values
 						if (heartBinMax > 0 && heartBinMax >= heartBinMin)
 						{
-							var height = ((heartBinMax+heartBinMin)/2-heartMin*0.9) / (heartMax-heartMin*0.9) * totHeight;
+							var heartBinMid = (heartBinMax+heartBinMin)/2;
+							var height = (heartBinMid-heartMin*0.9) / (heartMax-heartMin*0.9) * totHeight;
 							var xVal = (width_screen-totWidth)/2 + totWidth - i*binPixels -2;
 							var yVal = height_screen/2+28 + totHeight - height;
 						
+							dc.setColor(arrayColours[getHRColour(heartBinMid)], Gfx.COLOR_TRANSPARENT);
 							dc.fillRectangle(xVal, yVal, binPixels, height);
 							
 //							Sys.println(i + ": " + binWidthSecs + " " + secsBin + " " + heartBinMin + " " + heartBinMax);
@@ -293,6 +305,23 @@ class SnapshotWatchView extends Ui.WatchFace {
 		}
 	}
 	
+
+	function getHRColour(heartrate)
+	{
+		if (!useZonesColour || heartrate == null || heartrate < heartRateZones[1])
+			{ return graphColour; } 
+//		else if (heartrate >= heartRateZones[0] && heartrate < heartRateZones[1])
+//			{ return 0; } 
+		else if (heartrate >= heartRateZones[1] && heartrate < heartRateZones[2])
+			{ return 7; } 
+		else if (heartrate >= heartRateZones[2] && heartrate < heartRateZones[3])
+			{ return 6; } 
+		else if (heartrate >= heartRateZones[3] && heartrate < heartRateZones[4])
+			{ return 3; } 
+		else
+			{ return 2; }
+	}
+
 
     //! Draw the watch hand
     function drawHand(dc, angle, whichHand, width, handColour)

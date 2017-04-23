@@ -2,18 +2,51 @@
 
 	<properties>
 		<property id="showHeartRate" type="boolean">true</property>
+		<property id="graphColour" type="number">0</property>
+		<property id="useZonesColour" type="boolean">true</property>
 		<property id="showSecondTime" type="boolean">false</property>
 		<property id="secondTimeOffset" type="number">0</property>
 	</properties>
 
 	<strings>
 		<string id="ShowHeartRateLabel">Show heart rate graph and min/max values</string>
+		<string id="GraphColourLabel">Heart rate graph colour</string>
+		<string id="DK_GRAY">Dark Gray</string>
+		<string id="RED">Red</string>
+		<string id="DK_RED">Dark Red</string>
+		<string id="ORANGE">Orange</string>
+		<string id="YELLOW">Yellow</string>
+		<string id="GREEN">Green</string>
+		<string id="DK_GREEN">Dark Green</string>
+		<string id="BLUE">Blue</string>
+		<string id="DK_BLUE">Dark Blue</string>
+		<string id="PURPLE">Purple</string>
+		<string id="PINK">Pink</string>
+		<string id="UseZonesColourLabel">Additionally colour code graph by profile heart rate zones?</string>
 		<string id="ShowSecondTimeLabel">Show second (digital) time</string>
 		<string id="SecondTimeOffsetLabel">Second (digital) time hour offset (integer, +-24)</string>
 	</strings>
 
 	<settings>
 		<setting propertyKey="@Properties.showHeartRate" title="@Strings.ShowHeartRateLabel">
+			<settingConfig type="boolean" />
+		</setting>
+		<setting propertyKey="@Properties.graphColour" title="@Strings.GraphColourLabel">
+			<settingConfig type="list" required="true">
+				<listEntry value="0">@Strings.DK_GRAY</listEntry>
+				<listEntry value="1">@Strings.RED</listEntry>
+				<listEntry value="2">@Strings.DK_RED</listEntry>
+				<listEntry value="3">@Strings.ORANGE</listEntry>
+				<listEntry value="4">@Strings.YELLOW</listEntry>
+				<listEntry value="5">@Strings.GREEN</listEntry>
+				<listEntry value="6">@Strings.DK_GREEN</listEntry>
+				<listEntry value="7">@Strings.BLUE</listEntry>
+				<listEntry value="8">@Strings.DK_BLUE</listEntry>
+				<listEntry value="9">@Strings.PURPLE</listEntry>
+				<listEntry value="10">@Strings.PINK</listEntry>
+			</settingConfig>
+		</setting>
+		<setting propertyKey="@Properties.useZonesColour" title="@Strings.UseZonesColourLabel">
 			<settingConfig type="boolean" />
 		</setting>
 		<setting propertyKey="@Properties.showSecondTime" title="@Strings.ShowSecondTimeLabel">
