@@ -331,7 +331,7 @@ class SnapshotWatchView extends Ui.WatchFace {
 		else if (heartrate >= heartRateZones[1] && heartrate < heartRateZones[2])
 			{ return 7; } 
 		else if (heartrate >= heartRateZones[2] && heartrate < heartRateZones[3])
-			{ return 6; } 
+			{ return 5; } 
 		else if (heartrate >= heartRateZones[3] && heartrate < heartRateZones[4])
 			{ return 3; } 
 		else
