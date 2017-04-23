@@ -41,6 +41,8 @@ class SnapshotWatchView extends Ui.WatchFace {
 	var heartMin;
 	var heartMax;
 
+	var proFeatures;
+
 
     //! Load your resources here
     function onLayout(dc) {
@@ -49,6 +51,7 @@ class SnapshotWatchView extends Ui.WatchFace {
 		width_screen = dc.getWidth();
 		height_screen = dc.getHeight();
 
+        //colours and zones
         arrayColours = [Gfx.COLOR_DK_GRAY, Gfx.COLOR_RED, Gfx.COLOR_DK_RED, Gfx.COLOR_ORANGE, Gfx.COLOR_YELLOW, Gfx.COLOR_GREEN, Gfx.COLOR_DK_GREEN, Gfx.COLOR_BLUE, Gfx.COLOR_DK_BLUE, Gfx.COLOR_PURPLE, Gfx.COLOR_PINK];
 		heartRateZones = User.getHeartRateZones(User.getCurrentSport());
 //		heartRateZones = [98, 127, 146, 166, 185, 195];
@@ -76,8 +79,11 @@ class SnapshotWatchView extends Ui.WatchFace {
     //! Update the view
     function onUpdate(dc) {
 
+		var code = "0";
+
 		if (usePreferences) 
 		{
+			code = Application.getApp().getProperty("code");
 			showHeartRate = Application.getApp().getProperty("showHeartRate");
 			graphColour = Application.getApp().getProperty("graphColour");
 			useZonesColour = Application.getApp().getProperty("useZonesColour");
@@ -85,6 +91,13 @@ class SnapshotWatchView extends Ui.WatchFace {
 			secondTimeOffset = Application.getApp().getProperty("secondTimeOffset");
 		}
 
+		authenticate(code);
+
+		if (!proFeatures)
+		{
+			showSecondTime = false;
+		}
+		
 		if (showSecondTime)
 		{
 			if (secondTimeOffset != null && secondTimeOffset <= 24 && secondTimeOffset >= -24) 
@@ -170,13 +183,16 @@ class SnapshotWatchView extends Ui.WatchFace {
         	{ offset = 6; }
         dc.drawText(width_screen/2-33-offset, 7, Gfx.FONT_SMALL, Lang.format("$1$%", [battery.format("%2d")]), Graphics.TEXT_JUSTIFY_LEFT|Graphics.TEXT_JUSTIFY_VCENTER);
 
-		// Show steps
-        dc.drawText(width_screen-4, height_screen/2 - 14, Gfx.FONT_SMALL, ActMon.getInfo().steps, Graphics.TEXT_JUSTIFY_RIGHT|Graphics.TEXT_JUSTIFY_VCENTER);
-        dc.drawText(width_screen-4, height_screen/2 + 11, Gfx.FONT_SMALL, ActMon.getInfo().stepGoal, Graphics.TEXT_JUSTIFY_RIGHT|Graphics.TEXT_JUSTIFY_VCENTER);
-
-		// Show sunrise and sunset
-		drawSunriseSunset(dc);
-
+		if (proFeatures)
+		{
+			// Show steps
+	        dc.drawText(width_screen-4, height_screen/2 - 14, Gfx.FONT_SMALL, ActMon.getInfo().steps, Graphics.TEXT_JUSTIFY_RIGHT|Graphics.TEXT_JUSTIFY_VCENTER);
+	        dc.drawText(width_screen-4, height_screen/2 + 11, Gfx.FONT_SMALL, ActMon.getInfo().stepGoal, Graphics.TEXT_JUSTIFY_RIGHT|Graphics.TEXT_JUSTIFY_VCENTER);
+	
+			// Show sunrise and sunset
+			drawSunriseSunset(dc);
+		}
+		
     }
 
 
@@ -547,6 +563,17 @@ class SnapshotWatchView extends Ui.WatchFace {
 			{ hour12 = 12; }
 		
 		return hour12;
+	}
+
+
+	function authenticate(code) {
+
+		proFeatures = true;
+
+		// set proFeatures=false
+		// insert your authentication requirements here
+		// then change proFeatures=true if "code" variable is valid
+
 	}
 	
 }
