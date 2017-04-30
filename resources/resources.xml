@@ -5,6 +5,8 @@
 		<property id="showHeartRate" type="boolean">true</property>
 		<property id="graphColour" type="number">0</property>
 		<property id="useZonesColour" type="boolean">true</property>
+		<property id="showSteps" type="boolean">false</property>
+		<property id="showRiseSet" type="boolean">false</property>
 		<property id="showSecondTime" type="boolean">false</property>
 		<property id="secondTimeOffset" type="number">0</property>
 	</properties>
@@ -25,6 +27,8 @@
 		<string id="PURPLE">Purple</string>
 		<string id="PINK">Pink</string>
 		<string id="UseZonesColourLabel">Additionally colour code graph by profile heart rate zones?</string>
+		<string id="ShowStepsLabel">[PRO] Show steps/step goal</string>
+		<string id="ShowRiseSetLabel">[PRO] Show sunrise/sunset</string>
 		<string id="ShowSecondTimeLabel">[PRO] Show second (digital) time</string>
 		<string id="SecondTimeOffsetLabel">[PRO] Second (digital) time hour offset (integer, +-24)</string>
 	</strings>
@@ -52,6 +56,12 @@
 			</settingConfig>
 		</setting>
 		<setting propertyKey="@Properties.useZonesColour" title="@Strings.UseZonesColourLabel">
+			<settingConfig type="boolean" />
+		</setting>
+		<setting propertyKey="@Properties.showSteps" title="@Strings.ShowStepsLabel">
+			<settingConfig type="boolean" />
+		</setting>
+		<setting propertyKey="@Properties.showRiseSet" title="@Strings.ShowRiseSetLabel">
 			<settingConfig type="boolean" />
 		</setting>
 		<setting propertyKey="@Properties.showSecondTime" title="@Strings.ShowSecondTimeLabel">
