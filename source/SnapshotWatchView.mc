@@ -516,6 +516,9 @@ class SnapshotWatchView extends Ui.WatchFace {
 		var sc = new SunCalc();
 		var lat;
 		var lon;
+		var timeStringRise = " --:--";
+		var timeStringSet = " --:--";
+
 		
 		var loc = Activity.getActivityInfo().currentLocation;
 		if (loc == null)
@@ -537,7 +540,6 @@ class SnapshotWatchView extends Ui.WatchFace {
 		if(lat != null && lon != null)
 		{
 			var ampm;
-			var timeString;
 			
 			var now = new Time.Moment(Time.now().value());			
 			var sunrise_moment = sc.calculate(now, lat.toDouble(), lon.toDouble(), SUNRISE);
@@ -549,18 +551,16 @@ class SnapshotWatchView extends Ui.WatchFace {
 			ampm = "a";
     		if (timeInfoSunrise.hour >= 12)
     			{ ampm = "p"; }
-    	
-        	timeString = Lang.format("$1$:$2$$3$", [to12hourFormat(timeInfoSunrise.hour), timeInfoSunrise.min.format("%02d"), ampm]);
-        	dc.drawText(3, height_screen/2 - 14, Gfx.FONT_SMALL, timeString, Gfx.TEXT_JUSTIFY_LEFT|Graphics.TEXT_JUSTIFY_VCENTER);
+        	timeStringRise = Lang.format("$1$:$2$$3$", [to12hourFormat(timeInfoSunrise.hour), timeInfoSunrise.min.format("%02d"), ampm]);
 
 			ampm = "a";
     		if (timeInfoSunset.hour >= 12)
     			{ ampm = "p"; }
-    	
-        	timeString = Lang.format("$1$:$2$$3$", [to12hourFormat(timeInfoSunset.hour), timeInfoSunset.min.format("%02d"), ampm]);
-        	dc.drawText(3, height_screen/2 + 11, Gfx.FONT_SMALL, timeString, Gfx.TEXT_JUSTIFY_LEFT|Graphics.TEXT_JUSTIFY_VCENTER);
-
+        	timeStringSet = Lang.format("$1$:$2$$3$", [to12hourFormat(timeInfoSunset.hour), timeInfoSunset.min.format("%02d"), ampm]);
 		}
+		
+        dc.drawText(3, height_screen/2 - 14, Gfx.FONT_SMALL, timeStringRise, Gfx.TEXT_JUSTIFY_LEFT|Graphics.TEXT_JUSTIFY_VCENTER);
+       	dc.drawText(3, height_screen/2 + 11, Gfx.FONT_SMALL, timeStringSet, Gfx.TEXT_JUSTIFY_LEFT|Graphics.TEXT_JUSTIFY_VCENTER);		
 
 	} 
 
