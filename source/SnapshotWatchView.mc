@@ -138,13 +138,13 @@ class SnapshotWatchView extends Ui.WatchFace {
 		dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
 
 		// Show cur/min/max HR values (recorded when plotting graph, above)
-		if (heartNow == 0)
-        	{ dc.drawText(width_screen/2, height_screen/2 + 20, Gfx.FONT_SMALL, "-- bpm", Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER); }
-		else
-        	{ dc.drawText(width_screen/2, height_screen/2 + 20, Gfx.FONT_SMALL, Lang.format("$1$ bpm", [heartNow]), Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER); }
-
 		if (showHeartRate)
 		{
+			if (heartNow == 0)
+    	    	{ dc.drawText(width_screen/2, height_screen/2 + 20, Gfx.FONT_SMALL, "-- bpm", Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER); }
+			else
+        		{ dc.drawText(width_screen/2, height_screen/2 + 20, Gfx.FONT_SMALL, Lang.format("$1$ bpm", [heartNow]), Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER); }
+
 			var heartMinMaxString;
 	        if (heartMin == 0 || heartMax == 0)
 	        	{ heartMinMaxString = "-- / -- bpm"; }

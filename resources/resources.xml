@@ -13,7 +13,7 @@
 
 	<strings>
 		<string id="CodeLabel">Activation code for PRO features</string>
-		<string id="ShowHeartRateLabel">Show heart rate graph and min/max values</string>
+		<string id="ShowHeartRateLabel">Show heart rate, graph, and min/max values</string>
 		<string id="GraphColourLabel">Heart rate graph colour</string>
 		<string id="DK_GRAY">Dark Gray</string>
 		<string id="RED">Red</string>

@@ -79,9 +79,9 @@
 <entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="135" pc="268437693" symbol="onUpdate"/>
 <entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="138" pc="268437770" symbol="onUpdate"/>
 <entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="141" pc="268437806" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="142" pc="268437823" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="144" pc="268437918" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="146" pc="268438047" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="143" pc="268437817" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="144" pc="268437834" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="146" pc="268437929" symbol="onUpdate"/>
 <entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="148" pc="268438058" symbol="onUpdate"/>
 <entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="149" pc="268438058" symbol="onUpdate"/>
 <entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="150" pc="268438095" symbol="onUpdate"/>
@@ -312,139 +312,148 @@
 </pcToLineNum>
 <symbolTable>
 <entry id="8389719" method="true" symbol="round"/>
-<entry field="true" id="23" symbol="NUM_RESULTS"/>
-<entry field="true" id="9" symbol="NAUTICAL_DAWN"/>
+<entry field="true" id="24" symbol="NUM_RESULTS"/>
+<entry field="true" id="10" symbol="NAUTICAL_DAWN"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
-<entry id="88" symbol="DAYS"/>
-<entry field="true" id="40" symbol="BLUE"/>
-<entry field="true" id="11" symbol="BLUE_HOUR_AM"/>
-<entry field="true" id="10" symbol="DAWN"/>
-<entry id="84" method="true" symbol="to12hourFormat"/>
-<entry field="true" id="58" symbol="showSteps"/>
-<entry id="8388631" symbol="Activity"/>
-<entry field="true" id="54" symbol="ORANGE"/>
-<entry field="true" id="12" symbol="SUNRISE"/>
-<entry field="true" id="8388611" symbol="Toybox"/>
-<entry id="8388645" symbol="Time"/>
-<entry id="81" method="true" symbol="drawDate"/>
-<entry field="true" id="33" symbol="AlarmIcon"/>
-<entry id="8388893" symbol="PI"/>
-<entry id="78" method="true" symbol="drawHands"/>
-<entry field="true" id="53" symbol="YELLOW"/>
-<entry id="8388770" module="true" symbol="Strings"/>
-<entry field="true" id="16" symbol="GOLDEN_HOUR_PM"/>
-<entry id="8388643" symbol="Sensor"/>
-<entry id="27" object="true" symbol="SnapshotWatchView"/>
-<entry id="87" symbol="PI2"/>
+<entry field="true" id="89" symbol="DAYS"/>
+<entry field="true" id="41" symbol="BLUE"/>
+<entry field="true" id="12" symbol="BLUE_HOUR_AM"/>
+<entry field="true" id="11" symbol="DAWN"/>
+<entry id="85" method="true" symbol="to12hourFormat"/>
+<entry field="true" id="59" symbol="showSteps"/>
+<entry id="8388631" module="true" symbol="Activity"/>
+<entry field="true" id="55" symbol="ORANGE"/>
+<entry field="true" id="13" symbol="SUNRISE"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry id="8388645" module="true" symbol="Time"/>
+<entry id="82" method="true" symbol="drawDate"/>
+<entry field="true" id="34" symbol="AlarmIcon"/>
+<entry field="true" id="8388893" symbol="PI"/>
+<entry id="79" method="true" symbol="drawHands"/>
+<entry field="true" id="54" symbol="YELLOW"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry field="true" id="17" symbol="GOLDEN_HOUR_PM"/>
+<entry id="8388643" module="true" symbol="Sensor"/>
+<entry id="28" object="true" symbol="SnapshotWatchView"/>
+<entry field="true" id="88" symbol="PI2"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry id="8389377" method="true" symbol="onExitSleep"/>
-<entry id="91" symbol="J0"/>
-<entry id="8388640" symbol="Lang"/>
-<entry field="true" id="44" symbol="DK_RED"/>
-<entry id="92" symbol="TIMES"/>
-<entry id="104" method="true" symbol="fromJulian"/>
-<entry id="8388769" module="true" symbol="Rez"/>
-<entry field="true" id="48" symbol="PINK"/>
+<entry field="true" id="92" symbol="J0"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry field="true" id="45" symbol="DK_RED"/>
+<entry field="true" id="93" symbol="TIMES"/>
+<entry id="105" method="true" symbol="fromJulian"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry field="true" id="49" symbol="PINK"/>
 <entry id="8389123" method="true" symbol="onShow"/>
-<entry field="true" id="101" symbol="sin2L"/>
-<entry field="true" id="31" symbol="BluetoothIcon"/>
-<entry id="24" object="true" symbol="SunCalc"/>
-<entry id="85" method="true" symbol="authenticate"/>
-<entry field="true" id="14" symbol="GOLDEN_HOUR_AM"/>
-<entry id="79" method="true" symbol="drawHash"/>
-<entry field="true" id="8" symbol="NIGHT_END"/>
+<entry field="true" id="102" symbol="sin2L"/>
+<entry field="true" id="32" symbol="BluetoothIcon"/>
+<entry id="25" object="true" symbol="SunCalc"/>
+<entry id="86" method="true" symbol="authenticate"/>
+<entry field="true" id="15" symbol="GOLDEN_HOUR_AM"/>
+<entry id="80" method="true" symbol="drawHash"/>
+<entry field="true" id="9" symbol="NIGHT_END"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry field="true" id="46" symbol="AppName"/>
-<entry field="true" id="68" symbol="width_screen"/>
-<entry field="true" id="26" symbol="LON"/>
-<entry field="true" id="61" symbol="secondTimeOffset"/>
-<entry id="8389375" method="true" symbol="WatchFace"/>
-<entry id="77" method="true" symbol="drawHand"/>
-<entry field="true" id="60" symbol="showSecondTime"/>
-<entry field="true" id="69" symbol="height_screen"/>
-<entry field="true" id="98" symbol="sinM"/>
-<entry field="true" id="64" symbol="useZonesColour"/>
-<entry field="true" id="71" symbol="heartNow"/>
-<entry field="true" id="50" symbol="ShowHeartRateLabel"/>
-<entry field="true" id="22" symbol="NIGHT"/>
-<entry field="true" id="56" symbol="usePreferences"/>
-<entry field="true" id="62" symbol="arrayColours"/>
-<entry id="75" method="true" symbol="plotHRgraph"/>
-<entry id="8388641" symbol="Math"/>
-<entry id="105" method="true" symbol="calculate"/>
+<entry field="true" id="47" symbol="AppName"/>
+<entry field="true" id="69" symbol="width_screen"/>
+<entry field="true" id="27" symbol="LON"/>
+<entry field="true" id="62" symbol="secondTimeOffset"/>
+<entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+<entry id="78" method="true" symbol="drawHand"/>
+<entry field="true" id="61" symbol="showSecondTime"/>
+<entry field="true" id="70" symbol="height_screen"/>
+<entry field="true" id="99" symbol="sinM"/>
+<entry field="true" id="65" symbol="useZonesColour"/>
+<entry field="true" id="72" symbol="heartNow"/>
+<entry field="true" id="51" symbol="ShowHeartRateLabel"/>
+<entry field="true" id="23" symbol="NIGHT"/>
+<entry field="true" id="57" symbol="usePreferences"/>
+<entry field="true" id="63" symbol="arrayColours"/>
+<entry id="76" method="true" symbol="plotHRgraph"/>
+<entry id="8388641" module="true" symbol="Math"/>
+<entry id="106" method="true" symbol="calculate"/>
 <entry id="8389809" symbol="order"/>
-<entry field="true" id="35" symbol="LauncherIcon"/>
-<entry field="true" id="103" symbol="Jnoon"/>
-<entry field="true" id="38" symbol="DK_GRAY"/>
+<entry field="true" id="36" symbol="LauncherIcon"/>
+<entry field="true" id="104" symbol="Jnoon"/>
+<entry field="true" id="39" symbol="DK_GRAY"/>
 <entry id="8389281" method="true" symbol="onStop"/>
-<entry field="true" id="25" symbol="LAT"/>
-<entry id="76" method="true" symbol="getHRColour"/>
-<entry field="true" id="51" symbol="GraphColourLabel"/>
-<entry field="true" id="49" symbol="CodeLabel"/>
-<entry id="8388771" module="true" symbol="Drawables"/>
+<entry field="true" id="26" symbol="LAT"/>
+<entry id="77" method="true" symbol="getHRColour"/>
+<entry field="true" id="52" symbol="GraphColourLabel"/>
+<entry field="true" id="50" symbol="CodeLabel"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
-<entry id="83" method="true" symbol="drawSunriseSunset"/>
-<entry id="82" method="true" symbol="drawDigitalTime"/>
+<entry id="84" method="true" symbol="drawSunriseSunset"/>
+<entry id="83" method="true" symbol="drawDigitalTime"/>
 <entry id="8389279" method="true" symbol="onStart"/>
-<entry field="true" id="34" symbol="MuteIcon"/>
-<entry field="true" id="47" symbol="RED"/>
-<entry field="true" id="18" symbol="SUNSET"/>
+<entry field="true" id="35" symbol="MuteIcon"/>
+<entry field="true" id="48" symbol="RED"/>
+<entry field="true" id="19" symbol="SUNSET"/>
 <entry id="8389376" method="true" symbol="onEnterSleep"/>
-<entry field="true" id="102" symbol="dec"/>
-<entry id="86" symbol="RAD"/>
-<entry id="80" method="true" symbol="drawHashMarks"/>
-<entry field="true" id="65" symbol="heartRateZones"/>
-<entry field="true" id="66" symbol="background_color"/>
-<entry field="true" id="45" symbol="DK_BLUE"/>
-<entry id="28" object="true" symbol="SnapshotWatchApp"/>
-<entry id="89" symbol="J1970"/>
-<entry field="true" id="93" symbol="lastD"/>
-<entry field="true" id="63" symbol="graphColour"/>
-<entry field="true" id="13" symbol="SUNRISE_END"/>
-<entry id="30" module="true" symbol="Layouts"/>
-<entry field="true" id="57" symbol="showHeartRate"/>
-<entry field="true" id="15" symbol="NOON"/>
-<entry field="true" id="21" symbol="NAUTICAL_DUSK"/>
-<entry field="true" id="72" symbol="heartMin"/>
-<entry field="true" id="37" symbol="ShowRiseSetLabel"/>
-<entry field="true" id="59" symbol="showRiseSet"/>
-<entry field="true" id="70" symbol="hashMarksArray"/>
-<entry field="true" id="55" symbol="ShowStepsLabel"/>
-<entry field="true" id="32" symbol="NotificationIcon"/>
-<entry field="true" id="43" symbol="GREEN"/>
-<entry field="true" id="20" symbol="DUSK"/>
-<entry field="true" id="52" symbol="ShowSecondTimeLabel"/>
-<entry id="29" module="true" symbol="Menus"/>
-<entry field="true" id="73" symbol="heartMax"/>
-<entry id="90" symbol="J2000"/>
-<entry field="true" id="67" symbol="showSeconds"/>
-<entry field="true" id="41" symbol="SecondTimeOffsetLabel"/>
-<entry field="true" id="96" symbol="ds"/>
-<entry field="true" id="19" symbol="BLUE_HOUR_PM"/>
-<entry field="true" id="42" symbol="PURPLE"/>
-<entry id="8388772" module="true" symbol="Fonts"/>
-<entry field="true" id="95" symbol="n"/>
-<entry field="true" id="36" symbol="UseZonesColourLabel"/>
-<entry field="true" id="94" symbol="lastLng"/>
-<entry field="true" id="17" symbol="SUNSET_START"/>
-<entry field="true" id="97" symbol="M"/>
-<entry field="true" id="100" symbol="L"/>
-<entry field="true" id="99" symbol="C"/>
-<entry field="true" id="74" symbol="proFeatures"/>
-<entry field="true" id="39" symbol="DK_GREEN"/>
+<entry field="true" id="103" symbol="dec"/>
+<entry field="true" id="87" symbol="RAD"/>
+<entry id="81" method="true" symbol="drawHashMarks"/>
+<entry field="true" id="66" symbol="heartRateZones"/>
+<entry field="true" id="67" symbol="background_color"/>
+<entry field="true" id="46" symbol="DK_BLUE"/>
+<entry id="29" object="true" symbol="SnapshotWatchApp"/>
+<entry field="true" id="90" symbol="J1970"/>
+<entry field="true" id="94" symbol="lastD"/>
+<entry field="true" id="64" symbol="graphColour"/>
+<entry field="true" id="14" symbol="SUNRISE_END"/>
+<entry id="31" module="true" symbol="Layouts"/>
+<entry field="true" id="58" symbol="showHeartRate"/>
+<entry field="true" id="16" symbol="NOON"/>
+<entry field="true" id="22" symbol="NAUTICAL_DUSK"/>
+<entry field="true" id="73" symbol="heartMin"/>
+<entry field="true" id="38" symbol="ShowRiseSetLabel"/>
+<entry field="true" id="60" symbol="showRiseSet"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry field="true" id="71" symbol="hashMarksArray"/>
+<entry field="true" id="56" symbol="ShowStepsLabel"/>
+<entry field="true" id="33" symbol="NotificationIcon"/>
+<entry field="true" id="44" symbol="GREEN"/>
+<entry field="true" id="21" symbol="DUSK"/>
+<entry field="true" id="53" symbol="ShowSecondTimeLabel"/>
+<entry id="30" module="true" symbol="Menus"/>
+<entry field="true" id="74" symbol="heartMax"/>
+<entry field="true" id="91" symbol="J2000"/>
+<entry field="true" id="68" symbol="showSeconds"/>
+<entry field="true" id="42" symbol="SecondTimeOffsetLabel"/>
+<entry field="true" id="97" symbol="ds"/>
+<entry field="true" id="20" symbol="BLUE_HOUR_PM"/>
+<entry field="true" id="43" symbol="PURPLE"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry field="true" id="96" symbol="n"/>
+<entry field="true" id="37" symbol="UseZonesColourLabel"/>
+<entry field="true" id="95" symbol="lastLng"/>
+<entry field="true" id="18" symbol="SUNSET_START"/>
+<entry field="true" id="98" symbol="M"/>
+<entry field="true" id="101" symbol="L"/>
+<entry field="true" id="100" symbol="C"/>
+<entry field="true" id="75" symbol="proFeatures"/>
+<entry field="true" id="40" symbol="DK_GREEN"/>
 </symbolTable>
 <localVars>
+<entry endPc="268435537" name="j" stackId="1" startPc="268435479"/>
+<entry endPc="268435610" name="a" stackId="1" startPc="268435537"/>
 <entry endPc="268436498" name="x" stackId="6" startPc="268435614"/>
 <entry endPc="268436498" name="ds" stackId="7" startPc="268435614"/>
 <entry endPc="268436498" name="Jrise" stackId="9" startPc="268435614"/>
 <entry endPc="268436498" name="Jset" stackId="8" startPc="268435614"/>
 <entry endPc="268436498" name="d" stackId="5" startPc="268435614"/>
+<entry endPc="268436499" name="lng" stackId="3" startPc="268435610"/>
+<entry endPc="268436499" name="what" stackId="4" startPc="268435610"/>
+<entry endPc="268436499" name="lat" stackId="2" startPc="268435610"/>
+<entry endPc="268436499" name="moment" stackId="1" startPc="268435610"/>
 <entry endPc="268437005" name="i" stackId="2" startPc="268436831"/>
-<entry endPc="268438233" name="heartMinMaxString" stackId="3" startPc="268438058"/>
+<entry endPc="268437043" name="dc" stackId="1" startPc="268436499"/>
+<entry endPc="268438233" name="heartMinMaxString" stackId="3" startPc="268437817"/>
 <entry endPc="268438791" name="offset" stackId="4" startPc="268438567"/>
 <entry endPc="268439234" name="battery" stackId="5" startPc="268437052"/>
 <entry endPc="268439234" name="code" stackId="2" startPc="268437052"/>
 <entry endPc="268439234" name="offset" stackId="6" startPc="268437052"/>
+<entry endPc="268439235" name="dc" stackId="1" startPc="268437048"/>
 <entry endPc="268440057" name="height" stackId="19" startPc="268439870"/>
 <entry endPc="268440057" name="heartBinMid" stackId="18" startPc="268439870"/>
 <entry endPc="268440057" name="yVal" stackId="21" startPc="268439870"/>
@@ -465,6 +474,8 @@
 <entry endPc="268440076" name="heartValue" stackId="11" startPc="268439387"/>
 <entry endPc="268440079" name="heart" stackId="3" startPc="268439331"/>
 <entry endPc="268440082" name="sample" stackId="2" startPc="268439281"/>
+<entry endPc="268440083" name="dc" stackId="1" startPc="268439277"/>
+<entry endPc="268440307" name="heartrate" stackId="1" startPc="268440083"/>
 <entry endPc="268441101" name="r4" stackId="10" startPc="268440311"/>
 <entry endPc="268441101" name="r3" stackId="9" startPc="268440311"/>
 <entry endPc="268441101" name="length" stackId="6" startPc="268440311"/>
@@ -475,9 +486,18 @@
 <entry endPc="268441101" name="deflect2" stackId="12" startPc="268440311"/>
 <entry endPc="268441101" name="deflect1" stackId="11" startPc="268440311"/>
 <entry endPc="268441101" name="coords" stackId="15" startPc="268440311"/>
+<entry endPc="268441102" name="dc" stackId="1" startPc="268440307"/>
+<entry endPc="268441102" name="handColour" stackId="5" startPc="268440307"/>
+<entry endPc="268441102" name="width" stackId="4" startPc="268440307"/>
+<entry endPc="268441102" name="angle" stackId="2" startPc="268440307"/>
+<entry endPc="268441102" name="whichHand" stackId="3" startPc="268440307"/>
 <entry endPc="268441681" name="hour" stackId="5" startPc="268441106"/>
 <entry endPc="268441681" name="min" stackId="6" startPc="268441106"/>
 <entry endPc="268441681" name="sec" stackId="7" startPc="268441106"/>
+<entry endPc="268441682" name="dc" stackId="1" startPc="268441102"/>
+<entry endPc="268441682" name="clock_min" stackId="3" startPc="268441102"/>
+<entry endPc="268441682" name="clock_hour" stackId="2" startPc="268441102"/>
+<entry endPc="268441682" name="clock_sec" stackId="4" startPc="268441102"/>
 <entry endPc="268442111" name="x" stackId="14" startPc="268442012"/>
 <entry endPc="268442111" name="y" stackId="15" startPc="268442012"/>
 <entry endPc="268442124" name="i" stackId="13" startPc="268442012"/>
@@ -487,11 +507,21 @@
 <entry endPc="268442138" name="cos" stackId="10" startPc="268441686"/>
 <entry endPc="268442138" name="centerY" stackId="8" startPc="268441686"/>
 <entry endPc="268442138" name="centerX" stackId="7" startPc="268441686"/>
+<entry endPc="268442139" name="dc" stackId="1" startPc="268441682"/>
+<entry endPc="268442139" name="handColour" stackId="6" startPc="268441682"/>
+<entry endPc="268442139" name="width" stackId="4" startPc="268441682"/>
+<entry endPc="268442139" name="length" stackId="3" startPc="268441682"/>
+<entry endPc="268442139" name="overheadLine" stackId="5" startPc="268441682"/>
+<entry endPc="268442139" name="angle" stackId="2" startPc="268441682"/>
+<entry endPc="268443071" name="dc" stackId="1" startPc="268442139"/>
 <entry endPc="268443353" name="dateStr" stackId="3" startPc="268443075"/>
 <entry endPc="268443353" name="info" stackId="2" startPc="268443075"/>
+<entry endPc="268443354" name="dc" stackId="1" startPc="268443071"/>
 <entry endPc="268443640" name="offsetHour" stackId="3" startPc="268443369"/>
 <entry endPc="268443640" name="ampm" stackId="4" startPc="268443369"/>
 <entry endPc="268443640" name="timeString" stackId="5" startPc="268443369"/>
+<entry endPc="268443644" name="dc" stackId="1" startPc="268443354"/>
+<entry endPc="268443644" name="clockTime" stackId="2" startPc="268443354"/>
 <entry endPc="268444412" name="now" stackId="9" startPc="268443950"/>
 <entry endPc="268444412" name="ampm" stackId="8" startPc="268443950"/>
 <entry endPc="268444412" name="timeInfoSunrise" stackId="12" startPc="268443950"/>
@@ -504,54 +534,60 @@
 <entry endPc="268444571" name="lon" stackId="4" startPc="268443648"/>
 <entry endPc="268444571" name="sc" stackId="2" startPc="268443648"/>
 <entry endPc="268444571" name="timeStringSet" stackId="6" startPc="268443648"/>
+<entry endPc="268444572" name="dc" stackId="1" startPc="268443644"/>
 <entry endPc="268444610" name="hour12" stackId="2" startPc="268444576"/>
+<entry endPc="268444611" name="hour" stackId="1" startPc="268444572"/>
+<entry endPc="268444626" name="code" stackId="1" startPc="268444611"/>
+<entry endPc="268444655" name="state" stackId="1" startPc="268444650"/>
+<entry endPc="268444660" name="state" stackId="1" startPc="268444655"/>
+<entry endPc="268444715" name="dc" stackId="1" startPc="268444702"/>
 </localVars>
 <annotations/>
 <functions>
-<functionEntry name="initialize" parent="SunCalc">
+<functionEntry accessMode="public" name="initialize" parent="SunCalc">
 <documentation/>
 </functionEntry>
-<functionEntry name="fromJulian" parent="SunCalc">
+<functionEntry accessMode="public" name="fromJulian" parent="SunCalc">
 <param id="j"/>
 <documentation/>
 </functionEntry>
-<functionEntry name="round" parent="SunCalc">
+<functionEntry accessMode="public" name="round" parent="SunCalc">
 <param id="a"/>
 <documentation/>
 </functionEntry>
-<functionEntry name="calculate" parent="SunCalc">
+<functionEntry accessMode="public" name="calculate" parent="SunCalc">
 <param id="moment"/>
 <param id="lat"/>
 <param id="lng"/>
 <param id="what"/>
 <documentation/>
 </functionEntry>
-<functionEntry name="onLayout" parent="SnapshotWatchView">
+<functionEntry accessMode="public" name="onLayout" parent="SnapshotWatchView">
 <param id="dc"/>
 <documentation><![CDATA[<div class="description"> Load your resources here<br/></div>]]></documentation>
 </functionEntry>
-<functionEntry name="onShow" parent="SnapshotWatchView">
+<functionEntry accessMode="public" name="onShow" parent="SnapshotWatchView">
 <documentation><![CDATA[<div class="description"> Restore the state of the app and prepare the view to be shown<br/></div>]]></documentation>
 </functionEntry>
-<functionEntry name="onUpdate" parent="SnapshotWatchView">
+<functionEntry accessMode="public" name="onUpdate" parent="SnapshotWatchView">
 <param id="dc"/>
 <documentation><![CDATA[<div class="description"> Update the view<br/></div>]]></documentation>
 </functionEntry>
-<functionEntry name="onExitSleep" parent="SnapshotWatchView">
+<functionEntry accessMode="public" name="onExitSleep" parent="SnapshotWatchView">
 <documentation><![CDATA[<div class="description"> The user has just looked at their watch. Timers and animations may be started here.<br/></div>]]></documentation>
 </functionEntry>
-<functionEntry name="onEnterSleep" parent="SnapshotWatchView">
+<functionEntry accessMode="public" name="onEnterSleep" parent="SnapshotWatchView">
 <documentation><![CDATA[<div class="description"> Terminate any active timers and prepare for slow updates.<br/></div>]]></documentation>
 </functionEntry>
-<functionEntry name="plotHRgraph" parent="SnapshotWatchView">
+<functionEntry accessMode="public" name="plotHRgraph" parent="SnapshotWatchView">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry name="getHRColour" parent="SnapshotWatchView">
+<functionEntry accessMode="public" name="getHRColour" parent="SnapshotWatchView">
 <param id="heartrate"/>
 <documentation/>
 </functionEntry>
-<functionEntry name="drawHand" parent="SnapshotWatchView">
+<functionEntry accessMode="public" name="drawHand" parent="SnapshotWatchView">
 <param id="dc"/>
 <param id="angle"/>
 <param id="whichHand"/>
@@ -559,14 +595,14 @@
 <param id="handColour"/>
 <documentation><![CDATA[<div class="description"> Draw the watch hand<br/></div>]]></documentation>
 </functionEntry>
-<functionEntry name="drawHands" parent="SnapshotWatchView">
+<functionEntry accessMode="public" name="drawHands" parent="SnapshotWatchView">
 <param id="dc"/>
 <param id="clock_hour"/>
 <param id="clock_min"/>
 <param id="clock_sec"/>
 <documentation/>
 </functionEntry>
-<functionEntry name="drawHash" parent="SnapshotWatchView">
+<functionEntry accessMode="public" name="drawHash" parent="SnapshotWatchView">
 <param id="dc"/>
 <param id="angle"/>
 <param id="length"/>
@@ -575,48 +611,61 @@
 <param id="handColour"/>
 <documentation/>
 </functionEntry>
-<functionEntry name="drawHashMarks" parent="SnapshotWatchView">
+<functionEntry accessMode="public" name="drawHashMarks" parent="SnapshotWatchView">
 <param id="dc"/>
 <documentation><![CDATA[<div class="description"> Draw the hash mark symbols<br/></div>]]></documentation>
 </functionEntry>
-<functionEntry name="drawDate" parent="SnapshotWatchView">
+<functionEntry accessMode="public" name="drawDate" parent="SnapshotWatchView">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry name="drawDigitalTime" parent="SnapshotWatchView">
+<functionEntry accessMode="public" name="drawDigitalTime" parent="SnapshotWatchView">
 <param id="dc"/>
 <param id="clockTime"/>
 <documentation/>
 </functionEntry>
-<functionEntry name="drawSunriseSunset" parent="SnapshotWatchView">
+<functionEntry accessMode="public" name="drawSunriseSunset" parent="SnapshotWatchView">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry name="to12hourFormat" parent="SnapshotWatchView">
+<functionEntry accessMode="public" name="to12hourFormat" parent="SnapshotWatchView">
 <param id="hour"/>
 <documentation/>
 </functionEntry>
-<functionEntry name="authenticate" parent="SnapshotWatchView">
+<functionEntry accessMode="public" name="authenticate" parent="SnapshotWatchView">
 <param id="code"/>
 <documentation/>
 </functionEntry>
-<functionEntry name="initialize" parent="SnapshotWatchApp">
+<functionEntry accessMode="public" name="initialize" parent="SnapshotWatchApp">
 <documentation/>
 </functionEntry>
-<functionEntry name="onStart" parent="SnapshotWatchApp">
+<functionEntry accessMode="public" name="onStart" parent="SnapshotWatchApp">
 <param id="state"/>
 <documentation/>
 </functionEntry>
-<functionEntry name="onStop" parent="SnapshotWatchApp">
+<functionEntry accessMode="public" name="onStop" parent="SnapshotWatchApp">
 <param id="state"/>
 <documentation/>
 </functionEntry>
-<functionEntry name="getInitialView" parent="SnapshotWatchApp">
+<functionEntry accessMode="public" name="getInitialView" parent="SnapshotWatchApp">
 <documentation/>
 </functionEntry>
-<functionEntry name="WatchFace" parent="Layouts">
+<functionEntry accessMode="public" name="WatchFace" parent="Layouts">
 <param id="dc"/>
 <documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
 </functionEntry>
 </functions>
+<dataEntryOffsetMappings>
+<dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
+<dataEntry offset="326" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="405" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="476" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="507" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="538" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="569" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="608" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="799" parentId="globals" symbolId="SnapshotWatchApp" type="class"/>
+<dataEntry offset="870" parentId="globals" symbolId="SnapshotWatchView" type="class"/>
+<dataEntry offset="1197" parentId="globals" symbolId="SunCalc" type="class"/>
+</dataEntryOffsetMappings>
 </debugInfo>
