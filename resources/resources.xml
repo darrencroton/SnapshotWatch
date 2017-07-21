@@ -5,6 +5,7 @@
 		<property id="showHeartRate" type="boolean">true</property>
 		<property id="graphColour" type="number">0</property>
 		<property id="useZonesColour" type="boolean">true</property>
+		<property id="showMoveBar" type="boolean">false</property>
 		<property id="showSteps" type="boolean">false</property>
 		<property id="showRiseSet" type="boolean">false</property>
 		<property id="showSecondTime" type="boolean">false</property>
@@ -26,7 +27,8 @@
 		<string id="DK_BLUE">Dark Blue</string>
 		<string id="PURPLE">Purple</string>
 		<string id="PINK">Pink</string>
-		<string id="UseZonesColourLabel">Additionally colour code graph by profile heart rate zones?</string>
+		<string id="UseZonesColourLabel">Additionally colour code graph by profile heart rate zones</string>
+		<string id="ShowMoveBarLabel">Colour graph red when move bar alert is on (or orange if red set above)</string>
 		<string id="ShowStepsLabel">[PRO] Show steps/step goal</string>
 		<string id="ShowRiseSetLabel">[PRO] Show sunrise/sunset</string>
 		<string id="ShowSecondTimeLabel">[PRO] Show second (digital) time</string>
@@ -56,6 +58,9 @@
 			</settingConfig>
 		</setting>
 		<setting propertyKey="@Properties.useZonesColour" title="@Strings.UseZonesColourLabel">
+			<settingConfig type="boolean" />
+		</setting>
+		<setting propertyKey="@Properties.showMoveBar" title="@Strings.ShowMoveBarLabel">
 			<settingConfig type="boolean" />
 		</setting>
 		<setting propertyKey="@Properties.showSteps" title="@Strings.ShowStepsLabel">

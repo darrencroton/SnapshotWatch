@@ -31,6 +31,7 @@ class SnapshotWatchView extends Ui.WatchFace {
 	var graphColour = 0;
 	var useZonesColour = true;
 	var heartRateZones;
+	var showMoveBar = false;
 	
 	var background_color = Gfx.COLOR_BLACK;
 //	var background_color = Gfx.COLOR_DK_GRAY;
@@ -89,6 +90,7 @@ class SnapshotWatchView extends Ui.WatchFace {
 			showHeartRate = Application.getApp().getProperty("showHeartRate");
 			graphColour = Application.getApp().getProperty("graphColour");
 			useZonesColour = Application.getApp().getProperty("useZonesColour");
+			showMoveBar = Application.getApp().getProperty("showMoveBar");
 			showSteps = Application.getApp().getProperty("showSteps");
 			showRiseSet = Application.getApp().getProperty("showRiseSet");
 			showSecondTime = Application.getApp().getProperty("showSecondTime");
@@ -314,8 +316,18 @@ class SnapshotWatchView extends Ui.WatchFace {
 							var height = (heartBinMid-heartMin*0.9) / (heartMax-heartMin*0.9) * totHeight;
 							var xVal = (width_screen-totWidth)/2 + totWidth - i*binPixels -2;
 							var yVal = height_screen/2+28 + totHeight - height;
-						
-							dc.setColor(arrayColours[getHRColour(heartBinMid)], Gfx.COLOR_TRANSPARENT);
+							
+							if (showMoveBar && ActMon.getInfo().moveBarLevel > 0)
+							{
+								if (graphColour == 1)
+									{ dc.setColor(Gfx.COLOR_ORANGE, Gfx.COLOR_TRANSPARENT); }
+								else
+									{ dc.setColor(Gfx.COLOR_RED, Gfx.COLOR_TRANSPARENT); }
+							} else 
+							{
+								dc.setColor(arrayColours[getHRColour(heartBinMid)], Gfx.COLOR_TRANSPARENT); 
+							}
+							
 							dc.fillRectangle(xVal, yVal, binPixels, height);
 							
 //							Sys.println(i + ": " + binWidthSecs + " " + secsBin + " " + heartBinMin + " " + heartBinMax);

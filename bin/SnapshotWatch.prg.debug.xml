@@ -35,403 +35,410 @@
 <entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SunCalc.mc" lineNum="103" pc="268436445" symbol="calculate"/>
 <entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SunCalc.mc" lineNum="106" pc="268436462" symbol="calculate"/>
 <entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SunCalc.mc" lineNum="108" pc="268436484" symbol="calculate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="50" pc="268436499" symbol="onLayout"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="53" pc="268436503" symbol="onLayout"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="54" pc="268436522" symbol="onLayout"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="57" pc="268436541" symbol="onLayout"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="58" pc="268436775" symbol="onLayout"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="62" pc="268436813" symbol="onLayout"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="64" pc="268436831" symbol="onLayout"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="65" pc="268436848" symbol="onLayout"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="67" pc="268436892" symbol="onLayout"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="68" pc="268436945" symbol="onLayout"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="70" pc="268436970" symbol="onLayout"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="73" pc="268437005" symbol="onLayout"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="78" pc="268437043" symbol="onShow"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="82" pc="268437048" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="84" pc="268437052" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="86" pc="268437059" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="88" pc="268437070" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="89" pc="268437103" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="90" pc="268437142" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="91" pc="268437181" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="92" pc="268437220" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="93" pc="268437259" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="94" pc="268437298" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="95" pc="268437337" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="98" pc="268437379" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="100" pc="268437393" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="102" pc="268437405" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="103" pc="268437415" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="104" pc="268437425" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="107" pc="268437438" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="109" pc="268437449" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="111" pc="268437502" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="115" pc="268437530" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="116" pc="268437540" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="121" pc="268437556" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="122" pc="268437588" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="124" pc="268437626" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="125" pc="268437639" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="126" pc="268437652" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="129" pc="268437665" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="132" pc="268437679" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="135" pc="268437693" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="138" pc="268437770" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="141" pc="268437806" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="143" pc="268437817" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="144" pc="268437834" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="146" pc="268437929" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="148" pc="268438058" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="149" pc="268438058" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="150" pc="268438095" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="152" pc="268438105" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="154" pc="268438165" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="158" pc="268438236" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="161" pc="268438250" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="164" pc="268438279" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="165" pc="268438303" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="168" pc="268438363" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="169" pc="268438393" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="172" pc="268438453" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="173" pc="268438477" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="176" pc="268438537" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="178" pc="268438567" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="179" pc="268438574" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="179" pc="268438604" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="181" pc="268438614" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="182" pc="268438716" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="186" pc="268438794" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="187" pc="268438817" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="188" pc="268438824" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="189" pc="268438835" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="190" pc="268438845" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="192" pc="268438976" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="195" pc="268438987" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="196" pc="268439095" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="199" pc="268439206" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="202" pc="268439217" symbol="onUpdate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="209" pc="268439235" symbol="onExitSleep"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="210" pc="268439239" symbol="onExitSleep"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="215" pc="268439250" symbol="onEnterSleep"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="216" pc="268439254" symbol="onEnterSleep"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="217" pc="268439264" symbol="onEnterSleep"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="221" pc="268439277" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="223" pc="268439281" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="224" pc="268439324" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="226" pc="268439331" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="227" pc="268439344" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="228" pc="268439357" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="230" pc="268439376" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="232" pc="268439387" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="233" pc="268439403" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="235" pc="268439425" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="236" pc="268439441" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="238" pc="268439463" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="239" pc="268439470" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="240" pc="268439477" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="241" pc="268439484" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="243" pc="268439491" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="244" pc="268439522" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="246" pc="268439556" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="247" pc="268439556" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="248" pc="268439563" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="249" pc="268439570" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="250" pc="268439592" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="251" pc="268439592" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="253" pc="268439592" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="255" pc="268439596" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="257" pc="268439611" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="258" pc="268439618" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="260" pc="268439625" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="263" pc="268439631" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="265" pc="268439652" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="266" pc="268439656" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="270" pc="268439663" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="272" pc="268439680" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="273" pc="268439693" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="275" pc="268439700" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="276" pc="268439710" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="278" pc="268439717" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="280" pc="268439728" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="281" pc="268439732" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="285" pc="268439739" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="286" pc="268439747" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="288" pc="268439754" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="289" pc="268439762" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="294" pc="268439772" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="295" pc="268439794" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="296" pc="268439813" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="302" pc="268439823" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="307" pc="268439830" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="308" pc="268439838" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="311" pc="268439848" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="313" pc="268439870" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="314" pc="268439883" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="315" pc="268439929" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="316" pc="268439963" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="318" pc="268439991" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="319" pc="268440037" symbol="plotHRgraph"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="334" pc="268440083" symbol="getHRColour"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="336" pc="268440087" symbol="getHRColour"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="337" pc="268440132" symbol="getHRColour"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="341" pc="268440187" symbol="getHRColour"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="343" pc="268440239" symbol="getHRColour"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="345" pc="268440291" symbol="getHRColour"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="347" pc="268440300" symbol="getHRColour"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="352" pc="268440307" symbol="drawHand"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="354" pc="268440311" symbol="drawHand"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="356" pc="268440337" symbol="drawHand"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="358" pc="268440337" symbol="drawHand"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="359" pc="268440353" symbol="drawHand"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="361" pc="268440369" symbol="drawHand"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="363" pc="268440380" symbol="drawHand"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="364" pc="268440390" symbol="drawHand"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="365" pc="268440400" symbol="drawHand"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="366" pc="268440410" symbol="drawHand"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="367" pc="268440420" symbol="drawHand"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="368" pc="268440430" symbol="drawHand"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="369" pc="268440440" symbol="drawHand"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="373" pc="268440453" symbol="drawHand"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="374" pc="268440463" symbol="drawHand"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="375" pc="268440473" symbol="drawHand"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="376" pc="268440483" symbol="drawHand"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="377" pc="268440493" symbol="drawHand"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="378" pc="268440503" symbol="drawHand"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="379" pc="268440513" symbol="drawHand"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="382" pc="268440523" symbol="drawHand"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="392" pc="268441087" symbol="drawHand"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="397" pc="268441102" symbol="drawHands"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="399" pc="268441106" symbol="drawHands"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="402" pc="268441106" symbol="drawHands"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="403" pc="268441125" symbol="drawHands"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="404" pc="268441154" symbol="drawHands"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="405" pc="268441192" symbol="drawHands"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="408" pc="268441230" symbol="drawHands"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="409" pc="268441240" symbol="drawHands"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="410" pc="268441263" symbol="drawHands"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="411" pc="268441301" symbol="drawHands"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="414" pc="268441339" symbol="drawHands"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="416" pc="268441350" symbol="drawHands"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="417" pc="268441379" symbol="drawHands"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="418" pc="268441431" symbol="drawHands"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="422" pc="268441486" symbol="drawHands"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="423" pc="268441518" symbol="drawHands"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="424" pc="268441563" symbol="drawHands"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="425" pc="268441591" symbol="drawHands"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="426" pc="268441636" symbol="drawHands"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="430" pc="268441682" symbol="drawHash"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="432" pc="268441686" symbol="drawHash"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="434" pc="268441712" symbol="drawHash"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="435" pc="268441728" symbol="drawHash"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="437" pc="268441744" symbol="drawHash"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="438" pc="268441752" symbol="drawHash"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="439" pc="268441771" symbol="drawHash"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="441" pc="268441790" symbol="drawHash"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="448" pc="268441994" symbol="drawHash"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="450" pc="268442012" symbol="drawHash"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="451" pc="268442043" symbol="drawHash"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="452" pc="268442074" symbol="drawHash"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="455" pc="268442124" symbol="drawHash"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="461" pc="268442139" symbol="drawHashMarks"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="463" pc="268442143" symbol="drawHashMarks"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="464" pc="268442219" symbol="drawHashMarks"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="465" pc="268442295" symbol="drawHashMarks"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="466" pc="268442371" symbol="drawHashMarks"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="467" pc="268442447" symbol="drawHashMarks"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="468" pc="268442523" symbol="drawHashMarks"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="469" pc="268442599" symbol="drawHashMarks"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="470" pc="268442675" symbol="drawHashMarks"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="472" pc="268442751" symbol="drawHashMarks"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="473" pc="268442827" symbol="drawHashMarks"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="474" pc="268442903" symbol="drawHashMarks"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="476" pc="268442979" symbol="drawHashMarks"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="477" pc="268442991" symbol="drawHashMarks"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="481" pc="268443071" symbol="drawDate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="483" pc="268443075" symbol="drawDate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="484" pc="268443119" symbol="drawDate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="486" pc="268443195" symbol="drawDate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="487" pc="268443206" symbol="drawDate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="489" pc="268443281" symbol="drawDate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="493" pc="268443354" symbol="drawDigitalTime"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="495" pc="268443358" symbol="drawDigitalTime"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="497" pc="268443369" symbol="drawDigitalTime"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="499" pc="268443388" symbol="drawDigitalTime"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="500" pc="268443399" symbol="drawDigitalTime"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="502" pc="268443423" symbol="drawDigitalTime"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="504" pc="268443436" symbol="drawDigitalTime"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="505" pc="268443443" symbol="drawDigitalTime"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="506" pc="268443454" symbol="drawDigitalTime"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="508" pc="268443464" symbol="drawDigitalTime"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="509" pc="268443553" symbol="drawDigitalTime"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="514" pc="268443644" symbol="drawSunriseSunset"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="516" pc="268443648" symbol="drawSunriseSunset"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="517" pc="268443672" symbol="drawSunriseSunset"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="518" pc="268443672" symbol="drawSunriseSunset"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="519" pc="268443672" symbol="drawSunriseSunset"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="520" pc="268443679" symbol="drawSunriseSunset"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="523" pc="268443686" symbol="drawSunriseSunset"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="524" pc="268443709" symbol="drawSunriseSunset"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="526" pc="268443716" symbol="drawSunriseSunset"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="527" pc="268443750" symbol="drawSunriseSunset"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="531" pc="268443787" symbol="drawSunriseSunset"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="532" pc="268443825" symbol="drawSunriseSunset"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="533" pc="268443860" symbol="drawSunriseSunset"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="534" pc="268443898" symbol="drawSunriseSunset"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="540" pc="268443933" symbol="drawSunriseSunset"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="542" pc="268443950" symbol="drawSunriseSunset"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="544" pc="268443950" symbol="drawSunriseSunset"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="545" pc="268444002" symbol="drawSunriseSunset"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="546" pc="268444047" symbol="drawSunriseSunset"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="548" pc="268444092" symbol="drawSunriseSunset"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="549" pc="268444123" symbol="drawSunriseSunset"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="551" pc="268444154" symbol="drawSunriseSunset"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="552" pc="268444161" symbol="drawSunriseSunset"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="553" pc="268444178" symbol="drawSunriseSunset"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="554" pc="268444188" symbol="drawSunriseSunset"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="556" pc="268444283" symbol="drawSunriseSunset"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="557" pc="268444290" symbol="drawSunriseSunset"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="558" pc="268444307" symbol="drawSunriseSunset"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="559" pc="268444317" symbol="drawSunriseSunset"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="562" pc="268444415" symbol="drawSunriseSunset"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="563" pc="268444493" symbol="drawSunriseSunset"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="568" pc="268444572" symbol="to12hourFormat"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="570" pc="268444576" symbol="to12hourFormat"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="571" pc="268444586" symbol="to12hourFormat"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="572" pc="268444597" symbol="to12hourFormat"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="574" pc="268444607" symbol="to12hourFormat"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="578" pc="268444611" symbol="authenticate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="580" pc="268444615" symbol="authenticate"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchApp.mc" lineNum="5" pc="268444627" symbol="initialize"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchApp.mc" lineNum="6" pc="268444631" symbol="initialize"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchApp.mc" lineNum="10" pc="268444650" symbol="onStart"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchApp.mc" lineNum="14" pc="268444655" symbol="onStop"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchApp.mc" lineNum="18" pc="268444660" symbol="getInitialView"/>
-<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchApp.mc" lineNum="19" pc="268444664" symbol="getInitialView"/>
-<entry filename="Rez" lineNum="41" pc="268444702" symbol="WatchFace"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="51" pc="268436499" symbol="onLayout"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="54" pc="268436503" symbol="onLayout"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="55" pc="268436522" symbol="onLayout"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="58" pc="268436541" symbol="onLayout"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="59" pc="268436775" symbol="onLayout"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="63" pc="268436813" symbol="onLayout"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="65" pc="268436831" symbol="onLayout"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="66" pc="268436848" symbol="onLayout"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="68" pc="268436892" symbol="onLayout"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="69" pc="268436945" symbol="onLayout"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="71" pc="268436970" symbol="onLayout"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="74" pc="268437005" symbol="onLayout"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="79" pc="268437043" symbol="onShow"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="83" pc="268437048" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="85" pc="268437052" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="87" pc="268437059" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="89" pc="268437070" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="90" pc="268437103" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="91" pc="268437142" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="92" pc="268437181" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="93" pc="268437220" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="94" pc="268437259" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="95" pc="268437298" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="96" pc="268437337" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="97" pc="268437376" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="100" pc="268437418" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="102" pc="268437432" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="104" pc="268437444" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="105" pc="268437454" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="106" pc="268437464" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="109" pc="268437477" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="111" pc="268437488" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="113" pc="268437541" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="117" pc="268437569" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="118" pc="268437579" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="123" pc="268437595" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="124" pc="268437627" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="126" pc="268437665" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="127" pc="268437678" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="128" pc="268437691" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="131" pc="268437704" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="134" pc="268437718" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="137" pc="268437732" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="140" pc="268437809" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="143" pc="268437845" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="145" pc="268437856" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="146" pc="268437873" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="148" pc="268437968" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="150" pc="268438097" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="151" pc="268438097" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="152" pc="268438134" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="154" pc="268438144" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="156" pc="268438204" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="160" pc="268438275" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="163" pc="268438289" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="166" pc="268438318" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="167" pc="268438342" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="170" pc="268438402" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="171" pc="268438432" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="174" pc="268438492" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="175" pc="268438516" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="178" pc="268438576" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="180" pc="268438606" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="181" pc="268438613" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="181" pc="268438643" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="183" pc="268438653" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="184" pc="268438755" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="188" pc="268438833" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="189" pc="268438856" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="190" pc="268438863" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="191" pc="268438874" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="192" pc="268438884" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="194" pc="268439015" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="197" pc="268439026" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="198" pc="268439134" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="201" pc="268439245" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="204" pc="268439256" symbol="onUpdate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="211" pc="268439274" symbol="onExitSleep"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="212" pc="268439278" symbol="onExitSleep"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="217" pc="268439289" symbol="onEnterSleep"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="218" pc="268439293" symbol="onEnterSleep"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="219" pc="268439303" symbol="onEnterSleep"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="223" pc="268439316" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="225" pc="268439320" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="226" pc="268439363" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="228" pc="268439370" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="229" pc="268439383" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="230" pc="268439396" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="232" pc="268439415" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="234" pc="268439426" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="235" pc="268439442" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="237" pc="268439464" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="238" pc="268439480" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="240" pc="268439502" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="241" pc="268439509" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="242" pc="268439516" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="243" pc="268439523" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="245" pc="268439530" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="246" pc="268439561" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="248" pc="268439595" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="249" pc="268439595" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="250" pc="268439602" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="251" pc="268439609" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="252" pc="268439631" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="253" pc="268439631" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="255" pc="268439631" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="257" pc="268439635" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="259" pc="268439650" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="260" pc="268439657" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="262" pc="268439664" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="265" pc="268439670" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="267" pc="268439691" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="268" pc="268439695" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="272" pc="268439702" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="274" pc="268439719" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="275" pc="268439732" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="277" pc="268439739" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="278" pc="268439749" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="280" pc="268439756" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="282" pc="268439767" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="283" pc="268439771" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="287" pc="268439778" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="288" pc="268439786" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="290" pc="268439793" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="291" pc="268439801" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="296" pc="268439811" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="297" pc="268439833" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="298" pc="268439852" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="304" pc="268439862" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="309" pc="268439869" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="310" pc="268439877" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="313" pc="268439887" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="315" pc="268439909" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="316" pc="268439922" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="317" pc="268439968" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="318" pc="268440002" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="320" pc="268440030" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="322" pc="268440074" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="323" pc="268440091" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="325" pc="268440130" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="328" pc="268440169" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="331" pc="268440215" symbol="plotHRgraph"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="346" pc="268440261" symbol="getHRColour"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="348" pc="268440265" symbol="getHRColour"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="349" pc="268440310" symbol="getHRColour"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="353" pc="268440365" symbol="getHRColour"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="355" pc="268440417" symbol="getHRColour"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="357" pc="268440469" symbol="getHRColour"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="359" pc="268440478" symbol="getHRColour"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="364" pc="268440485" symbol="drawHand"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="366" pc="268440489" symbol="drawHand"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="368" pc="268440515" symbol="drawHand"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="370" pc="268440515" symbol="drawHand"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="371" pc="268440531" symbol="drawHand"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="373" pc="268440547" symbol="drawHand"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="375" pc="268440558" symbol="drawHand"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="376" pc="268440568" symbol="drawHand"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="377" pc="268440578" symbol="drawHand"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="378" pc="268440588" symbol="drawHand"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="379" pc="268440598" symbol="drawHand"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="380" pc="268440608" symbol="drawHand"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="381" pc="268440618" symbol="drawHand"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="385" pc="268440631" symbol="drawHand"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="386" pc="268440641" symbol="drawHand"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="387" pc="268440651" symbol="drawHand"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="388" pc="268440661" symbol="drawHand"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="389" pc="268440671" symbol="drawHand"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="390" pc="268440681" symbol="drawHand"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="391" pc="268440691" symbol="drawHand"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="394" pc="268440701" symbol="drawHand"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="404" pc="268441265" symbol="drawHand"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="409" pc="268441280" symbol="drawHands"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="411" pc="268441284" symbol="drawHands"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="414" pc="268441284" symbol="drawHands"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="415" pc="268441303" symbol="drawHands"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="416" pc="268441332" symbol="drawHands"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="417" pc="268441370" symbol="drawHands"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="420" pc="268441408" symbol="drawHands"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="421" pc="268441418" symbol="drawHands"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="422" pc="268441441" symbol="drawHands"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="423" pc="268441479" symbol="drawHands"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="426" pc="268441517" symbol="drawHands"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="428" pc="268441528" symbol="drawHands"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="429" pc="268441557" symbol="drawHands"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="430" pc="268441609" symbol="drawHands"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="434" pc="268441664" symbol="drawHands"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="435" pc="268441696" symbol="drawHands"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="436" pc="268441741" symbol="drawHands"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="437" pc="268441769" symbol="drawHands"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="438" pc="268441814" symbol="drawHands"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="442" pc="268441860" symbol="drawHash"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="444" pc="268441864" symbol="drawHash"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="446" pc="268441890" symbol="drawHash"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="447" pc="268441906" symbol="drawHash"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="449" pc="268441922" symbol="drawHash"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="450" pc="268441930" symbol="drawHash"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="451" pc="268441949" symbol="drawHash"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="453" pc="268441968" symbol="drawHash"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="460" pc="268442172" symbol="drawHash"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="462" pc="268442190" symbol="drawHash"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="463" pc="268442221" symbol="drawHash"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="464" pc="268442252" symbol="drawHash"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="467" pc="268442302" symbol="drawHash"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="473" pc="268442317" symbol="drawHashMarks"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="475" pc="268442321" symbol="drawHashMarks"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="476" pc="268442397" symbol="drawHashMarks"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="477" pc="268442473" symbol="drawHashMarks"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="478" pc="268442549" symbol="drawHashMarks"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="479" pc="268442625" symbol="drawHashMarks"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="480" pc="268442701" symbol="drawHashMarks"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="481" pc="268442777" symbol="drawHashMarks"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="482" pc="268442853" symbol="drawHashMarks"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="484" pc="268442929" symbol="drawHashMarks"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="485" pc="268443005" symbol="drawHashMarks"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="486" pc="268443081" symbol="drawHashMarks"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="488" pc="268443157" symbol="drawHashMarks"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="489" pc="268443169" symbol="drawHashMarks"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="493" pc="268443249" symbol="drawDate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="495" pc="268443253" symbol="drawDate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="496" pc="268443297" symbol="drawDate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="498" pc="268443373" symbol="drawDate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="499" pc="268443384" symbol="drawDate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="501" pc="268443459" symbol="drawDate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="505" pc="268443532" symbol="drawDigitalTime"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="507" pc="268443536" symbol="drawDigitalTime"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="509" pc="268443547" symbol="drawDigitalTime"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="511" pc="268443566" symbol="drawDigitalTime"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="512" pc="268443577" symbol="drawDigitalTime"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="514" pc="268443601" symbol="drawDigitalTime"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="516" pc="268443614" symbol="drawDigitalTime"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="517" pc="268443621" symbol="drawDigitalTime"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="518" pc="268443632" symbol="drawDigitalTime"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="520" pc="268443642" symbol="drawDigitalTime"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="521" pc="268443731" symbol="drawDigitalTime"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="526" pc="268443822" symbol="drawSunriseSunset"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="528" pc="268443826" symbol="drawSunriseSunset"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="529" pc="268443850" symbol="drawSunriseSunset"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="530" pc="268443850" symbol="drawSunriseSunset"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="531" pc="268443850" symbol="drawSunriseSunset"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="532" pc="268443857" symbol="drawSunriseSunset"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="535" pc="268443864" symbol="drawSunriseSunset"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="536" pc="268443887" symbol="drawSunriseSunset"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="538" pc="268443894" symbol="drawSunriseSunset"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="539" pc="268443928" symbol="drawSunriseSunset"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="543" pc="268443965" symbol="drawSunriseSunset"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="544" pc="268444003" symbol="drawSunriseSunset"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="545" pc="268444038" symbol="drawSunriseSunset"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="546" pc="268444076" symbol="drawSunriseSunset"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="552" pc="268444111" symbol="drawSunriseSunset"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="554" pc="268444128" symbol="drawSunriseSunset"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="556" pc="268444128" symbol="drawSunriseSunset"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="557" pc="268444180" symbol="drawSunriseSunset"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="558" pc="268444225" symbol="drawSunriseSunset"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="560" pc="268444270" symbol="drawSunriseSunset"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="561" pc="268444301" symbol="drawSunriseSunset"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="563" pc="268444332" symbol="drawSunriseSunset"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="564" pc="268444339" symbol="drawSunriseSunset"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="565" pc="268444356" symbol="drawSunriseSunset"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="566" pc="268444366" symbol="drawSunriseSunset"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="568" pc="268444461" symbol="drawSunriseSunset"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="569" pc="268444468" symbol="drawSunriseSunset"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="570" pc="268444485" symbol="drawSunriseSunset"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="571" pc="268444495" symbol="drawSunriseSunset"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="574" pc="268444593" symbol="drawSunriseSunset"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="575" pc="268444671" symbol="drawSunriseSunset"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="580" pc="268444750" symbol="to12hourFormat"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="582" pc="268444754" symbol="to12hourFormat"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="583" pc="268444764" symbol="to12hourFormat"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="584" pc="268444775" symbol="to12hourFormat"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="586" pc="268444785" symbol="to12hourFormat"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="590" pc="268444789" symbol="authenticate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchView.mc" lineNum="592" pc="268444793" symbol="authenticate"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchApp.mc" lineNum="5" pc="268444805" symbol="initialize"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchApp.mc" lineNum="6" pc="268444809" symbol="initialize"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchApp.mc" lineNum="10" pc="268444828" symbol="onStart"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchApp.mc" lineNum="14" pc="268444833" symbol="onStop"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchApp.mc" lineNum="18" pc="268444838" symbol="getInitialView"/>
+<entry filename="/Users/dcroton/Documents/Eclipse/SnapshotWatch/source/SnapshotWatchApp.mc" lineNum="19" pc="268444842" symbol="getInitialView"/>
+<entry filename="Rez" lineNum="42" pc="268444880" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8389719" method="true" symbol="round"/>
 <entry field="true" id="24" symbol="NUM_RESULTS"/>
 <entry field="true" id="10" symbol="NAUTICAL_DAWN"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
-<entry field="true" id="89" symbol="DAYS"/>
+<entry field="true" id="91" symbol="DAYS"/>
 <entry field="true" id="41" symbol="BLUE"/>
 <entry field="true" id="12" symbol="BLUE_HOUR_AM"/>
 <entry field="true" id="11" symbol="DAWN"/>
-<entry id="85" method="true" symbol="to12hourFormat"/>
-<entry field="true" id="59" symbol="showSteps"/>
+<entry id="87" method="true" symbol="to12hourFormat"/>
+<entry field="true" id="60" symbol="showSteps"/>
 <entry id="8388631" module="true" symbol="Activity"/>
-<entry field="true" id="55" symbol="ORANGE"/>
+<entry field="true" id="56" symbol="ORANGE"/>
 <entry field="true" id="13" symbol="SUNRISE"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
 <entry id="8388645" module="true" symbol="Time"/>
-<entry id="82" method="true" symbol="drawDate"/>
+<entry id="84" method="true" symbol="drawDate"/>
 <entry field="true" id="34" symbol="AlarmIcon"/>
 <entry field="true" id="8388893" symbol="PI"/>
-<entry id="79" method="true" symbol="drawHands"/>
-<entry field="true" id="54" symbol="YELLOW"/>
+<entry id="81" method="true" symbol="drawHands"/>
+<entry field="true" id="55" symbol="YELLOW"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
 <entry field="true" id="17" symbol="GOLDEN_HOUR_PM"/>
 <entry id="8388643" module="true" symbol="Sensor"/>
 <entry id="28" object="true" symbol="SnapshotWatchView"/>
-<entry field="true" id="88" symbol="PI2"/>
+<entry field="true" id="90" symbol="PI2"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry id="8389377" method="true" symbol="onExitSleep"/>
-<entry field="true" id="92" symbol="J0"/>
+<entry field="true" id="94" symbol="J0"/>
 <entry id="8388640" module="true" symbol="Lang"/>
-<entry field="true" id="45" symbol="DK_RED"/>
-<entry field="true" id="93" symbol="TIMES"/>
-<entry id="105" method="true" symbol="fromJulian"/>
+<entry field="true" id="46" symbol="DK_RED"/>
+<entry field="true" id="95" symbol="TIMES"/>
+<entry id="107" method="true" symbol="fromJulian"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
-<entry field="true" id="49" symbol="PINK"/>
+<entry field="true" id="50" symbol="PINK"/>
 <entry id="8389123" method="true" symbol="onShow"/>
-<entry field="true" id="102" symbol="sin2L"/>
+<entry field="true" id="104" symbol="sin2L"/>
 <entry field="true" id="32" symbol="BluetoothIcon"/>
 <entry id="25" object="true" symbol="SunCalc"/>
-<entry id="86" method="true" symbol="authenticate"/>
+<entry id="88" method="true" symbol="authenticate"/>
 <entry field="true" id="15" symbol="GOLDEN_HOUR_AM"/>
-<entry id="80" method="true" symbol="drawHash"/>
+<entry id="82" method="true" symbol="drawHash"/>
 <entry field="true" id="9" symbol="NIGHT_END"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry field="true" id="47" symbol="AppName"/>
-<entry field="true" id="69" symbol="width_screen"/>
+<entry field="true" id="48" symbol="AppName"/>
+<entry field="true" id="71" symbol="width_screen"/>
 <entry field="true" id="27" symbol="LON"/>
-<entry field="true" id="62" symbol="secondTimeOffset"/>
+<entry field="true" id="63" symbol="secondTimeOffset"/>
 <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
-<entry id="78" method="true" symbol="drawHand"/>
-<entry field="true" id="61" symbol="showSecondTime"/>
-<entry field="true" id="70" symbol="height_screen"/>
-<entry field="true" id="99" symbol="sinM"/>
-<entry field="true" id="65" symbol="useZonesColour"/>
-<entry field="true" id="72" symbol="heartNow"/>
-<entry field="true" id="51" symbol="ShowHeartRateLabel"/>
+<entry id="80" method="true" symbol="drawHand"/>
+<entry field="true" id="62" symbol="showSecondTime"/>
+<entry field="true" id="72" symbol="height_screen"/>
+<entry field="true" id="101" symbol="sinM"/>
+<entry field="true" id="66" symbol="useZonesColour"/>
+<entry field="true" id="74" symbol="heartNow"/>
+<entry field="true" id="52" symbol="ShowHeartRateLabel"/>
 <entry field="true" id="23" symbol="NIGHT"/>
-<entry field="true" id="57" symbol="usePreferences"/>
-<entry field="true" id="63" symbol="arrayColours"/>
-<entry id="76" method="true" symbol="plotHRgraph"/>
+<entry field="true" id="58" symbol="usePreferences"/>
+<entry field="true" id="64" symbol="arrayColours"/>
+<entry id="78" method="true" symbol="plotHRgraph"/>
 <entry id="8388641" module="true" symbol="Math"/>
-<entry id="106" method="true" symbol="calculate"/>
+<entry id="108" method="true" symbol="calculate"/>
 <entry id="8389809" symbol="order"/>
 <entry field="true" id="36" symbol="LauncherIcon"/>
-<entry field="true" id="104" symbol="Jnoon"/>
+<entry field="true" id="106" symbol="Jnoon"/>
 <entry field="true" id="39" symbol="DK_GRAY"/>
 <entry id="8389281" method="true" symbol="onStop"/>
 <entry field="true" id="26" symbol="LAT"/>
-<entry id="77" method="true" symbol="getHRColour"/>
-<entry field="true" id="52" symbol="GraphColourLabel"/>
-<entry field="true" id="50" symbol="CodeLabel"/>
+<entry id="79" method="true" symbol="getHRColour"/>
+<entry field="true" id="53" symbol="GraphColourLabel"/>
+<entry field="true" id="51" symbol="CodeLabel"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
-<entry id="84" method="true" symbol="drawSunriseSunset"/>
-<entry id="83" method="true" symbol="drawDigitalTime"/>
+<entry id="86" method="true" symbol="drawSunriseSunset"/>
+<entry id="85" method="true" symbol="drawDigitalTime"/>
 <entry id="8389279" method="true" symbol="onStart"/>
 <entry field="true" id="35" symbol="MuteIcon"/>
-<entry field="true" id="48" symbol="RED"/>
+<entry field="true" id="49" symbol="RED"/>
 <entry field="true" id="19" symbol="SUNSET"/>
 <entry id="8389376" method="true" symbol="onEnterSleep"/>
-<entry field="true" id="103" symbol="dec"/>
-<entry field="true" id="87" symbol="RAD"/>
-<entry id="81" method="true" symbol="drawHashMarks"/>
-<entry field="true" id="66" symbol="heartRateZones"/>
-<entry field="true" id="67" symbol="background_color"/>
-<entry field="true" id="46" symbol="DK_BLUE"/>
+<entry field="true" id="105" symbol="dec"/>
+<entry field="true" id="89" symbol="RAD"/>
+<entry id="83" method="true" symbol="drawHashMarks"/>
+<entry field="true" id="67" symbol="heartRateZones"/>
+<entry field="true" id="69" symbol="background_color"/>
+<entry field="true" id="47" symbol="DK_BLUE"/>
 <entry id="29" object="true" symbol="SnapshotWatchApp"/>
-<entry field="true" id="90" symbol="J1970"/>
-<entry field="true" id="94" symbol="lastD"/>
-<entry field="true" id="64" symbol="graphColour"/>
+<entry field="true" id="92" symbol="J1970"/>
+<entry field="true" id="96" symbol="lastD"/>
+<entry field="true" id="65" symbol="graphColour"/>
 <entry field="true" id="14" symbol="SUNRISE_END"/>
 <entry id="31" module="true" symbol="Layouts"/>
-<entry field="true" id="58" symbol="showHeartRate"/>
+<entry field="true" id="59" symbol="showHeartRate"/>
 <entry field="true" id="16" symbol="NOON"/>
 <entry field="true" id="22" symbol="NAUTICAL_DUSK"/>
-<entry field="true" id="73" symbol="heartMin"/>
+<entry field="true" id="75" symbol="heartMin"/>
 <entry field="true" id="38" symbol="ShowRiseSetLabel"/>
-<entry field="true" id="60" symbol="showRiseSet"/>
+<entry field="true" id="61" symbol="showRiseSet"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
-<entry field="true" id="71" symbol="hashMarksArray"/>
-<entry field="true" id="56" symbol="ShowStepsLabel"/>
+<entry field="true" id="73" symbol="hashMarksArray"/>
+<entry field="true" id="57" symbol="ShowStepsLabel"/>
 <entry field="true" id="33" symbol="NotificationIcon"/>
+<entry field="true" id="45" symbol="ShowMoveBarLabel"/>
 <entry field="true" id="44" symbol="GREEN"/>
 <entry field="true" id="21" symbol="DUSK"/>
-<entry field="true" id="53" symbol="ShowSecondTimeLabel"/>
+<entry field="true" id="54" symbol="ShowSecondTimeLabel"/>
 <entry id="30" module="true" symbol="Menus"/>
-<entry field="true" id="74" symbol="heartMax"/>
-<entry field="true" id="91" symbol="J2000"/>
-<entry field="true" id="68" symbol="showSeconds"/>
+<entry field="true" id="76" symbol="heartMax"/>
+<entry field="true" id="93" symbol="J2000"/>
+<entry field="true" id="70" symbol="showSeconds"/>
 <entry field="true" id="42" symbol="SecondTimeOffsetLabel"/>
-<entry field="true" id="97" symbol="ds"/>
+<entry field="true" id="99" symbol="ds"/>
 <entry field="true" id="20" symbol="BLUE_HOUR_PM"/>
 <entry field="true" id="43" symbol="PURPLE"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
-<entry field="true" id="96" symbol="n"/>
+<entry field="true" id="98" symbol="n"/>
 <entry field="true" id="37" symbol="UseZonesColourLabel"/>
-<entry field="true" id="95" symbol="lastLng"/>
+<entry field="true" id="97" symbol="lastLng"/>
 <entry field="true" id="18" symbol="SUNSET_START"/>
-<entry field="true" id="98" symbol="M"/>
-<entry field="true" id="101" symbol="L"/>
-<entry field="true" id="100" symbol="C"/>
-<entry field="true" id="75" symbol="proFeatures"/>
+<entry field="true" id="100" symbol="M"/>
+<entry field="true" id="103" symbol="L"/>
+<entry field="true" id="102" symbol="C"/>
+<entry field="true" id="68" symbol="showMoveBar"/>
+<entry field="true" id="77" symbol="proFeatures"/>
 <entry field="true" id="40" symbol="DK_GREEN"/>
 </symbolTable>
 <localVars>
@@ -448,99 +455,99 @@
 <entry endPc="268436499" name="moment" stackId="1" startPc="268435610"/>
 <entry endPc="268437005" name="i" stackId="2" startPc="268436831"/>
 <entry endPc="268437043" name="dc" stackId="1" startPc="268436499"/>
-<entry endPc="268438233" name="heartMinMaxString" stackId="3" startPc="268437817"/>
-<entry endPc="268438791" name="offset" stackId="4" startPc="268438567"/>
-<entry endPc="268439234" name="battery" stackId="5" startPc="268437052"/>
-<entry endPc="268439234" name="code" stackId="2" startPc="268437052"/>
-<entry endPc="268439234" name="offset" stackId="6" startPc="268437052"/>
-<entry endPc="268439235" name="dc" stackId="1" startPc="268437048"/>
-<entry endPc="268440057" name="height" stackId="19" startPc="268439870"/>
-<entry endPc="268440057" name="heartBinMid" stackId="18" startPc="268439870"/>
-<entry endPc="268440057" name="yVal" stackId="21" startPc="268439870"/>
-<entry endPc="268440057" name="xVal" stackId="20" startPc="268439870"/>
-<entry endPc="268440076" name="i" stackId="17" startPc="268439611"/>
-<entry endPc="268440076" name="totHeight" stackId="5" startPc="268439387"/>
-<entry endPc="268440076" name="totBins" stackId="8" startPc="268439387"/>
-<entry endPc="268440076" name="finished" stackId="16" startPc="268439387"/>
-<entry endPc="268440076" name="maxSecs" stackId="4" startPc="268439387"/>
-<entry endPc="268440076" name="heartSecs" stackId="10" startPc="268439387"/>
-<entry endPc="268440076" name="heartBinMin" stackId="15" startPc="268439387"/>
-<entry endPc="268440076" name="lastHeartSecs" stackId="13" startPc="268439387"/>
-<entry endPc="268440076" name="secsBin" stackId="12" startPc="268439387"/>
-<entry endPc="268440076" name="binPixels" stackId="7" startPc="268439387"/>
-<entry endPc="268440076" name="binWidthSecs" stackId="9" startPc="268439387"/>
-<entry endPc="268440076" name="heartBinMax" stackId="14" startPc="268439387"/>
-<entry endPc="268440076" name="totWidth" stackId="6" startPc="268439387"/>
-<entry endPc="268440076" name="heartValue" stackId="11" startPc="268439387"/>
-<entry endPc="268440079" name="heart" stackId="3" startPc="268439331"/>
-<entry endPc="268440082" name="sample" stackId="2" startPc="268439281"/>
-<entry endPc="268440083" name="dc" stackId="1" startPc="268439277"/>
-<entry endPc="268440307" name="heartrate" stackId="1" startPc="268440083"/>
-<entry endPc="268441101" name="r4" stackId="10" startPc="268440311"/>
-<entry endPc="268441101" name="r3" stackId="9" startPc="268440311"/>
-<entry endPc="268441101" name="length" stackId="6" startPc="268440311"/>
-<entry endPc="268441101" name="r2" stackId="8" startPc="268440311"/>
-<entry endPc="268441101" name="r1" stackId="7" startPc="268440311"/>
-<entry endPc="268441101" name="centerY" stackId="14" startPc="268440311"/>
-<entry endPc="268441101" name="centerX" stackId="13" startPc="268440311"/>
-<entry endPc="268441101" name="deflect2" stackId="12" startPc="268440311"/>
-<entry endPc="268441101" name="deflect1" stackId="11" startPc="268440311"/>
-<entry endPc="268441101" name="coords" stackId="15" startPc="268440311"/>
-<entry endPc="268441102" name="dc" stackId="1" startPc="268440307"/>
-<entry endPc="268441102" name="handColour" stackId="5" startPc="268440307"/>
-<entry endPc="268441102" name="width" stackId="4" startPc="268440307"/>
-<entry endPc="268441102" name="angle" stackId="2" startPc="268440307"/>
-<entry endPc="268441102" name="whichHand" stackId="3" startPc="268440307"/>
-<entry endPc="268441681" name="hour" stackId="5" startPc="268441106"/>
-<entry endPc="268441681" name="min" stackId="6" startPc="268441106"/>
-<entry endPc="268441681" name="sec" stackId="7" startPc="268441106"/>
-<entry endPc="268441682" name="dc" stackId="1" startPc="268441102"/>
-<entry endPc="268441682" name="clock_min" stackId="3" startPc="268441102"/>
-<entry endPc="268441682" name="clock_hour" stackId="2" startPc="268441102"/>
-<entry endPc="268441682" name="clock_sec" stackId="4" startPc="268441102"/>
-<entry endPc="268442111" name="x" stackId="14" startPc="268442012"/>
-<entry endPc="268442111" name="y" stackId="15" startPc="268442012"/>
-<entry endPc="268442124" name="i" stackId="13" startPc="268442012"/>
-<entry endPc="268442138" name="result" stackId="9" startPc="268441686"/>
-<entry endPc="268442138" name="sin" stackId="11" startPc="268441686"/>
-<entry endPc="268442138" name="coords" stackId="12" startPc="268441686"/>
-<entry endPc="268442138" name="cos" stackId="10" startPc="268441686"/>
-<entry endPc="268442138" name="centerY" stackId="8" startPc="268441686"/>
-<entry endPc="268442138" name="centerX" stackId="7" startPc="268441686"/>
-<entry endPc="268442139" name="dc" stackId="1" startPc="268441682"/>
-<entry endPc="268442139" name="handColour" stackId="6" startPc="268441682"/>
-<entry endPc="268442139" name="width" stackId="4" startPc="268441682"/>
-<entry endPc="268442139" name="length" stackId="3" startPc="268441682"/>
-<entry endPc="268442139" name="overheadLine" stackId="5" startPc="268441682"/>
-<entry endPc="268442139" name="angle" stackId="2" startPc="268441682"/>
-<entry endPc="268443071" name="dc" stackId="1" startPc="268442139"/>
-<entry endPc="268443353" name="dateStr" stackId="3" startPc="268443075"/>
-<entry endPc="268443353" name="info" stackId="2" startPc="268443075"/>
-<entry endPc="268443354" name="dc" stackId="1" startPc="268443071"/>
-<entry endPc="268443640" name="offsetHour" stackId="3" startPc="268443369"/>
-<entry endPc="268443640" name="ampm" stackId="4" startPc="268443369"/>
-<entry endPc="268443640" name="timeString" stackId="5" startPc="268443369"/>
-<entry endPc="268443644" name="dc" stackId="1" startPc="268443354"/>
-<entry endPc="268443644" name="clockTime" stackId="2" startPc="268443354"/>
-<entry endPc="268444412" name="now" stackId="9" startPc="268443950"/>
-<entry endPc="268444412" name="ampm" stackId="8" startPc="268443950"/>
-<entry endPc="268444412" name="timeInfoSunrise" stackId="12" startPc="268443950"/>
-<entry endPc="268444412" name="timeInfoSunset" stackId="13" startPc="268443950"/>
-<entry endPc="268444412" name="sunrise_moment" stackId="10" startPc="268443950"/>
-<entry endPc="268444412" name="sunset_moment" stackId="11" startPc="268443950"/>
-<entry endPc="268444571" name="timeStringRise" stackId="5" startPc="268443648"/>
-<entry endPc="268444571" name="lat" stackId="3" startPc="268443648"/>
-<entry endPc="268444571" name="loc" stackId="7" startPc="268443648"/>
-<entry endPc="268444571" name="lon" stackId="4" startPc="268443648"/>
-<entry endPc="268444571" name="sc" stackId="2" startPc="268443648"/>
-<entry endPc="268444571" name="timeStringSet" stackId="6" startPc="268443648"/>
-<entry endPc="268444572" name="dc" stackId="1" startPc="268443644"/>
-<entry endPc="268444610" name="hour12" stackId="2" startPc="268444576"/>
-<entry endPc="268444611" name="hour" stackId="1" startPc="268444572"/>
-<entry endPc="268444626" name="code" stackId="1" startPc="268444611"/>
-<entry endPc="268444655" name="state" stackId="1" startPc="268444650"/>
-<entry endPc="268444660" name="state" stackId="1" startPc="268444655"/>
-<entry endPc="268444715" name="dc" stackId="1" startPc="268444702"/>
+<entry endPc="268438272" name="heartMinMaxString" stackId="3" startPc="268437856"/>
+<entry endPc="268438830" name="offset" stackId="4" startPc="268438606"/>
+<entry endPc="268439273" name="battery" stackId="5" startPc="268437052"/>
+<entry endPc="268439273" name="code" stackId="2" startPc="268437052"/>
+<entry endPc="268439273" name="offset" stackId="6" startPc="268437052"/>
+<entry endPc="268439274" name="dc" stackId="1" startPc="268437048"/>
+<entry endPc="268440235" name="height" stackId="19" startPc="268439909"/>
+<entry endPc="268440235" name="heartBinMid" stackId="18" startPc="268439909"/>
+<entry endPc="268440235" name="yVal" stackId="21" startPc="268439909"/>
+<entry endPc="268440235" name="xVal" stackId="20" startPc="268439909"/>
+<entry endPc="268440254" name="i" stackId="17" startPc="268439650"/>
+<entry endPc="268440254" name="totHeight" stackId="5" startPc="268439426"/>
+<entry endPc="268440254" name="totBins" stackId="8" startPc="268439426"/>
+<entry endPc="268440254" name="finished" stackId="16" startPc="268439426"/>
+<entry endPc="268440254" name="maxSecs" stackId="4" startPc="268439426"/>
+<entry endPc="268440254" name="heartSecs" stackId="10" startPc="268439426"/>
+<entry endPc="268440254" name="heartBinMin" stackId="15" startPc="268439426"/>
+<entry endPc="268440254" name="lastHeartSecs" stackId="13" startPc="268439426"/>
+<entry endPc="268440254" name="secsBin" stackId="12" startPc="268439426"/>
+<entry endPc="268440254" name="binPixels" stackId="7" startPc="268439426"/>
+<entry endPc="268440254" name="binWidthSecs" stackId="9" startPc="268439426"/>
+<entry endPc="268440254" name="heartBinMax" stackId="14" startPc="268439426"/>
+<entry endPc="268440254" name="totWidth" stackId="6" startPc="268439426"/>
+<entry endPc="268440254" name="heartValue" stackId="11" startPc="268439426"/>
+<entry endPc="268440257" name="heart" stackId="3" startPc="268439370"/>
+<entry endPc="268440260" name="sample" stackId="2" startPc="268439320"/>
+<entry endPc="268440261" name="dc" stackId="1" startPc="268439316"/>
+<entry endPc="268440485" name="heartrate" stackId="1" startPc="268440261"/>
+<entry endPc="268441279" name="r4" stackId="10" startPc="268440489"/>
+<entry endPc="268441279" name="r3" stackId="9" startPc="268440489"/>
+<entry endPc="268441279" name="length" stackId="6" startPc="268440489"/>
+<entry endPc="268441279" name="r2" stackId="8" startPc="268440489"/>
+<entry endPc="268441279" name="r1" stackId="7" startPc="268440489"/>
+<entry endPc="268441279" name="centerY" stackId="14" startPc="268440489"/>
+<entry endPc="268441279" name="centerX" stackId="13" startPc="268440489"/>
+<entry endPc="268441279" name="deflect2" stackId="12" startPc="268440489"/>
+<entry endPc="268441279" name="deflect1" stackId="11" startPc="268440489"/>
+<entry endPc="268441279" name="coords" stackId="15" startPc="268440489"/>
+<entry endPc="268441280" name="dc" stackId="1" startPc="268440485"/>
+<entry endPc="268441280" name="handColour" stackId="5" startPc="268440485"/>
+<entry endPc="268441280" name="width" stackId="4" startPc="268440485"/>
+<entry endPc="268441280" name="angle" stackId="2" startPc="268440485"/>
+<entry endPc="268441280" name="whichHand" stackId="3" startPc="268440485"/>
+<entry endPc="268441859" name="hour" stackId="5" startPc="268441284"/>
+<entry endPc="268441859" name="min" stackId="6" startPc="268441284"/>
+<entry endPc="268441859" name="sec" stackId="7" startPc="268441284"/>
+<entry endPc="268441860" name="dc" stackId="1" startPc="268441280"/>
+<entry endPc="268441860" name="clock_min" stackId="3" startPc="268441280"/>
+<entry endPc="268441860" name="clock_hour" stackId="2" startPc="268441280"/>
+<entry endPc="268441860" name="clock_sec" stackId="4" startPc="268441280"/>
+<entry endPc="268442289" name="x" stackId="14" startPc="268442190"/>
+<entry endPc="268442289" name="y" stackId="15" startPc="268442190"/>
+<entry endPc="268442302" name="i" stackId="13" startPc="268442190"/>
+<entry endPc="268442316" name="result" stackId="9" startPc="268441864"/>
+<entry endPc="268442316" name="sin" stackId="11" startPc="268441864"/>
+<entry endPc="268442316" name="coords" stackId="12" startPc="268441864"/>
+<entry endPc="268442316" name="cos" stackId="10" startPc="268441864"/>
+<entry endPc="268442316" name="centerY" stackId="8" startPc="268441864"/>
+<entry endPc="268442316" name="centerX" stackId="7" startPc="268441864"/>
+<entry endPc="268442317" name="dc" stackId="1" startPc="268441860"/>
+<entry endPc="268442317" name="handColour" stackId="6" startPc="268441860"/>
+<entry endPc="268442317" name="width" stackId="4" startPc="268441860"/>
+<entry endPc="268442317" name="length" stackId="3" startPc="268441860"/>
+<entry endPc="268442317" name="overheadLine" stackId="5" startPc="268441860"/>
+<entry endPc="268442317" name="angle" stackId="2" startPc="268441860"/>
+<entry endPc="268443249" name="dc" stackId="1" startPc="268442317"/>
+<entry endPc="268443531" name="dateStr" stackId="3" startPc="268443253"/>
+<entry endPc="268443531" name="info" stackId="2" startPc="268443253"/>
+<entry endPc="268443532" name="dc" stackId="1" startPc="268443249"/>
+<entry endPc="268443818" name="offsetHour" stackId="3" startPc="268443547"/>
+<entry endPc="268443818" name="ampm" stackId="4" startPc="268443547"/>
+<entry endPc="268443818" name="timeString" stackId="5" startPc="268443547"/>
+<entry endPc="268443822" name="dc" stackId="1" startPc="268443532"/>
+<entry endPc="268443822" name="clockTime" stackId="2" startPc="268443532"/>
+<entry endPc="268444590" name="now" stackId="9" startPc="268444128"/>
+<entry endPc="268444590" name="ampm" stackId="8" startPc="268444128"/>
+<entry endPc="268444590" name="timeInfoSunrise" stackId="12" startPc="268444128"/>
+<entry endPc="268444590" name="timeInfoSunset" stackId="13" startPc="268444128"/>
+<entry endPc="268444590" name="sunrise_moment" stackId="10" startPc="268444128"/>
+<entry endPc="268444590" name="sunset_moment" stackId="11" startPc="268444128"/>
+<entry endPc="268444749" name="timeStringRise" stackId="5" startPc="268443826"/>
+<entry endPc="268444749" name="lat" stackId="3" startPc="268443826"/>
+<entry endPc="268444749" name="loc" stackId="7" startPc="268443826"/>
+<entry endPc="268444749" name="lon" stackId="4" startPc="268443826"/>
+<entry endPc="268444749" name="sc" stackId="2" startPc="268443826"/>
+<entry endPc="268444749" name="timeStringSet" stackId="6" startPc="268443826"/>
+<entry endPc="268444750" name="dc" stackId="1" startPc="268443822"/>
+<entry endPc="268444788" name="hour12" stackId="2" startPc="268444754"/>
+<entry endPc="268444789" name="hour" stackId="1" startPc="268444750"/>
+<entry endPc="268444804" name="code" stackId="1" startPc="268444789"/>
+<entry endPc="268444833" name="state" stackId="1" startPc="268444828"/>
+<entry endPc="268444838" name="state" stackId="1" startPc="268444833"/>
+<entry endPc="268444893" name="dc" stackId="1" startPc="268444880"/>
 </localVars>
 <annotations/>
 <functions>
@@ -664,8 +671,8 @@
 <dataEntry offset="538" parentId="Rez" symbolId="JsonData" type="module"/>
 <dataEntry offset="569" parentId="Rez" symbolId="Layouts" type="module"/>
 <dataEntry offset="608" parentId="Rez" symbolId="Strings" type="module"/>
-<dataEntry offset="799" parentId="globals" symbolId="SnapshotWatchApp" type="class"/>
-<dataEntry offset="870" parentId="globals" symbolId="SnapshotWatchView" type="class"/>
-<dataEntry offset="1197" parentId="globals" symbolId="SunCalc" type="class"/>
+<dataEntry offset="807" parentId="globals" symbolId="SnapshotWatchApp" type="class"/>
+<dataEntry offset="878" parentId="globals" symbolId="SnapshotWatchView" type="class"/>
+<dataEntry offset="1213" parentId="globals" symbolId="SunCalc" type="class"/>
 </dataEntryOffsetMappings>
 </debugInfo>
