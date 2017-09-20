@@ -3,6 +3,7 @@
 	<properties>
 		<property id="code" type="string">get code at app store page</property>
 		<property id="showHeartRate" type="boolean">true</property>
+		<property id="graphLength" type="number">240</property>
 		<property id="graphColour" type="number">0</property>
 		<property id="useZonesColour" type="boolean">true</property>
 		<property id="showMoveBar" type="boolean">false</property>
@@ -15,6 +16,7 @@
 	<strings>
 		<string id="CodeLabel">Activation code for PRO features</string>
 		<string id="ShowHeartRateLabel">Show heart rate, graph, and min/max values</string>
+		<string id="GraphLengthLabel">Number of past minutes to show in heart rate graph (minimum 15, maximum 240)</string>
 		<string id="GraphColourLabel">Heart rate graph colour</string>
 		<string id="DK_GRAY">Dark Gray</string>
 		<string id="RED">Red</string>
@@ -41,6 +43,9 @@
 		</setting>
 		<setting propertyKey="@Properties.showHeartRate" title="@Strings.ShowHeartRateLabel">
 			<settingConfig type="boolean" />
+		</setting>
+		<setting propertyKey="@Properties.graphLength" title="@Strings.GraphLengthLabel">
+			<settingConfig type="numeric" />
 		</setting>
 		<setting propertyKey="@Properties.graphColour" title="@Strings.GraphColourLabel">
 			<settingConfig type="list" required="true">

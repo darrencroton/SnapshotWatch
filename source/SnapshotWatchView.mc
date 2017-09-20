@@ -27,6 +27,7 @@ class SnapshotWatchView extends Ui.WatchFace {
 	var showSecondTime = false;
 	var secondTimeOffset = 0;
 
+	var graphLength = 240;
 	var arrayColours = new [11];
 	var graphColour = 0;
 	var useZonesColour = true;
@@ -41,8 +42,8 @@ class SnapshotWatchView extends Ui.WatchFace {
 	var hashMarksArray = new [60];
 
 	var heartNow;
-	var heartMin;
-	var heartMax;
+	var heartMin = 1000;
+	var heartMax = 0;
 
 	var proFeatures;
 
@@ -88,6 +89,7 @@ class SnapshotWatchView extends Ui.WatchFace {
 		{
 			code = Application.getApp().getProperty("code");
 			showHeartRate = Application.getApp().getProperty("showHeartRate");
+			graphLength = Application.getApp().getProperty("graphLength");
 			graphColour = Application.getApp().getProperty("graphColour");
 			useZonesColour = Application.getApp().getProperty("useZonesColour");
 			showMoveBar = Application.getApp().getProperty("showMoveBar");
@@ -118,14 +120,12 @@ class SnapshotWatchView extends Ui.WatchFace {
 				secondTimeOffset = 0;
 			}
     	}
-
+		
         // Clear screen
         dc.setColor(background_color, Gfx.COLOR_WHITE);
 		dc.fillRectangle(0,0, width_screen, height_screen);
 
 		heartNow = 0;
-		heartMin = 0;
-		heartMax = 0;
 
  		// Plot heart rate graph
 		plotHRgraph(dc);
@@ -222,6 +222,9 @@ class SnapshotWatchView extends Ui.WatchFace {
 
 	function plotHRgraph(dc) {
 	
+		var curHeartMin = 0;
+		var curHeartMax = 0;
+		
 		var sample = Sensor.getHeartRateHistory( {:order=>Sensor.ORDER_NEWEST_FIRST} );
 		if (sample != null)
 		{		    	
@@ -231,13 +234,17 @@ class SnapshotWatchView extends Ui.WatchFace {
 
 			if (showHeartRate)
 			{			
-		    	if (sample.getMin() != null)
-		    		{ heartMin = sample.getMin(); }
-		    	
-		    	if (sample.getMax() != null)
-		    		{ heartMax = sample.getMax(); }
-	
-				var maxSecs = 14355; //14400 = 4 hours
+				curHeartMin = heartMin;
+				curHeartMax = heartMax;
+				heartMin = 1000;
+				heartMax = 0;
+
+				var maxSecs = graphLength * 60;
+				if (maxSecs < 900)
+					{ maxSecs = 900; }  // 900sec = 15min
+				else if (maxSecs > 14355)
+					{ maxSecs = 14355; }   // 14400sec = 4hrs
+
 				var totHeight = 44;
 				var totWidth = 165;
 				var binPixels = 1;
@@ -312,23 +319,31 @@ class SnapshotWatchView extends Ui.WatchFace {
 						// only plot bar if we have valid values
 						if (heartBinMax > 0 && heartBinMax >= heartBinMin)
 						{
-							var heartBinMid = (heartBinMax+heartBinMin)/2;
-							var height = (heartBinMid-heartMin*0.9) / (heartMax-heartMin*0.9) * totHeight;
-							var xVal = (width_screen-totWidth)/2 + totWidth - i*binPixels -2;
-							var yVal = height_screen/2+28 + totHeight - height;
-							
-							if (showMoveBar && ActMon.getInfo().moveBarLevel > 0)
+							if (curHeartMax > 0 && curHeartMax > curHeartMin)
 							{
-								if (graphColour == 1)
-									{ dc.setColor(Gfx.COLOR_ORANGE, Gfx.COLOR_TRANSPARENT); }
-								else
-									{ dc.setColor(Gfx.COLOR_RED, Gfx.COLOR_TRANSPARENT); }
-							} else 
-							{
-								dc.setColor(arrayColours[getHRColour(heartBinMid)], Gfx.COLOR_TRANSPARENT); 
+								var heartBinMid = (heartBinMax+heartBinMin)/2;
+								var height = (heartBinMid-curHeartMin*0.9) / (curHeartMax-curHeartMin*0.9) * totHeight;
+								var xVal = (width_screen-totWidth)/2 + totWidth - i*binPixels -2;
+								var yVal = height_screen/2+28 + totHeight - height;
+								
+								if (showMoveBar && ActMon.getInfo().moveBarLevel > 0)
+								{
+									if (graphColour == 1)
+										{ dc.setColor(Gfx.COLOR_ORANGE, Gfx.COLOR_TRANSPARENT); }
+									else
+										{ dc.setColor(Gfx.COLOR_RED, Gfx.COLOR_TRANSPARENT); }
+								} else 
+								{
+									dc.setColor(arrayColours[getHRColour(heartBinMid)], Gfx.COLOR_TRANSPARENT); 
+								}
+								
+								dc.fillRectangle(xVal, yVal, binPixels, height);
 							}
-							
-							dc.fillRectangle(xVal, yVal, binPixels, height);
+
+							if (heartBinMin < heartMin) 
+								{ heartMin = heartBinMin; }
+							if (heartBinMax > heartMax)
+								{ heartMax = heartBinMax; }
 							
 //							Sys.println(i + ": " + binWidthSecs + " " + secsBin + " " + heartBinMin + " " + heartBinMax);
 						}				
